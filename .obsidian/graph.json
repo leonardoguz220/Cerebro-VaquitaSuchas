@@ -1,0 +1,26 @@
+{
+  "colorGroups": [
+    {
+      "query": "tag:#adr",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#spec",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "tag:#operaciones",
+      "color": {
+        "a": 1,
+        "rgb": 16750848
+      }
+    }
+  ],
+  "showTags": false
+}
