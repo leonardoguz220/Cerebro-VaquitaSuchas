@@ -1,0 +1,148 @@
+---
+title: "Workflow · migrate-production"
+tipo: workflow
+area: implementacion
+parent: "[[CI-CD]]"
+date: 2026-10-29
+tags: [area/implementacion, workflow, ci, github-actions]
+fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/.github/workflows/migrate-production.yml
+---
+
+> Padre: [[CI-CD]]
+
+Migraciones en producción: manual, solo desde main, con respaldo previo y revisores.
+
+Archivo: `.github/workflows/migrate-production.yml`. Los secretos solo aparecen por nombre (`secrets.X`); sus valores viven en GitHub y no están aquí. Visión general: [[CI-CD]].
+
+## Comentario del archivo
+
+Aplica las migraciones de database/migrations en producción (spec 000, RN-000-03).
+Es manual a propósito: las migraciones nunca corren al arrancar el backend.
+Requisitos en GitHub (los configura una persona, ver database/README.md «Migrar producción»):
+  - Entorno "production" con revisores obligatorios.
+  - Secreto de entorno PRODUCTION_DATABASE_URL con la URL externa de PostgreSQL de producción
+    (usuario dueño del esquema, no el rol de la aplicación).
+El workflow respalda la base (db:dump) y sube el respaldo como artefacto ANTES de migrar; si el
+respaldo falla, no se migra. El artefacto contiene datos de usuarios: retención corta (7 días).
+
+## Contenido
+
+```yaml
+# Aplica las migraciones de database/migrations en producción (spec 000, RN-000-03).
+# Es manual a propósito: las migraciones nunca corren al arrancar el backend.
+# Requisitos en GitHub (los configura una persona, ver database/README.md «Migrar producción»):
+#   - Entorno "production" con revisores obligatorios.
+#   - Secreto de entorno PRODUCTION_DATABASE_URL con la URL externa de PostgreSQL de producción
+#     (usuario dueño del esquema, no el rol de la aplicación).
+# El workflow respalda la base (db:dump) y sube el respaldo como artefacto ANTES de migrar; si el
+# respaldo falla, no se migra. El artefacto contiene datos de usuarios: retención corta (7 días).
+name: Migrate production
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Escribe "production" para confirmar (el respaldo previo lo hace este workflow)'
+        type: string
+        required: true
+      seed:
+        description: 'Sembrar también el catálogo (db:seed es idempotente)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: migrate-production
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    name: db:migrate en producción
+    runs-on: ubuntu-latest
+    # Solo desde main y solo con la confirmación escrita.
+    if: github.ref == 'refs/heads/main' && inputs.confirm == 'production'
+    environment: production
+    timeout-minutes: 10
+    env:
+      # La base de producción exige TLS ("SSL/TLS required"); lo respetan pg y pg_dump/psql.
+      PGSSLMODE: require
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # db:check compara las migraciones con origin/main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Instalar dependencias del paquete database
+        run: npm ci --workspace database
+
+      - name: Validar numeración y migraciones ya fusionadas
+        run: npm run db:check -w database -- --base origin/main
+
+      # pg_dump debe ser de la misma versión mayor que el servidor (o mayor); el cliente
+      # preinstalado en ubuntu-latest puede ser más viejo que el de producción.
+      - name: Instalar el cliente de PostgreSQL de la versión del servidor
+        run: |
+          set -euo pipefail
+          server_major=$(psql "$DATABASE_URL" -X -At -c 'SHOW server_version_num' | cut -c1-2)
+          client_major=$(pg_dump --version | grep -oE '[0-9]+' | head -1)
+          echo "Servidor: $server_major · cliente: $client_major"
+          if [ "$server_major" -gt "$client_major" ]; then
+            sudo apt-get install -y -qq postgresql-common
+            sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh -y
+            sudo apt-get install -y -qq "postgresql-client-$server_major"
+            echo "/usr/lib/postgresql/$server_major/bin" >> "$GITHUB_PATH"
+          fi
+        env:
+          DATABASE_URL: ${{ secrets.PRODUCTION_DATABASE_URL }}
+
+      - name: Respaldar la base de producción (db:dump)
+        run: |
+          set -euo pipefail
+          npm run db:dump -w database -- "$RUNNER_TEMP/backup/vaquita-produccion.sql"
+          test -s "$RUNNER_TEMP/backup/vaquita-produccion.sql"
+          grep -q 'PostgreSQL database dump complete' "$RUNNER_TEMP/backup/vaquita-produccion.sql"
+        env:
+          CI: 'true'
+          NODE_ENV: production
+          DATABASE_URL: ${{ secrets.PRODUCTION_DATABASE_URL }}
+
+      # Si la subida falla, el paso falla y la migración no corre.
+      - name: Subir el respaldo como artefacto (7 días)
+        uses: actions/upload-artifact@v4
+        with:
+          name: respaldo-produccion-${{ github.run_id }}
+          path: ${{ runner.temp }}/backup/vaquita-produccion.sql
+          retention-days: 7
+          if-no-files-found: error
+
+      - name: Aplicar migraciones
+        run: npm run db:migrate -w database
+        env:
+          CI: 'true'
+          NODE_ENV: production
+          DATABASE_URL: ${{ secrets.PRODUCTION_DATABASE_URL }}
+
+      - name: Comprobar que una segunda ejecución no cambia nada (CA-000-03)
+        run: |
+          set -o pipefail
+          npm run db:migrate -w database | tee migrate-second.log
+          grep -q '^Migraciones: 0 aplicadas' migrate-second.log
+        env:
+          CI: 'true'
+          NODE_ENV: production
+          DATABASE_URL: ${{ secrets.PRODUCTION_DATABASE_URL }}
+
+      - name: Sembrar el catálogo
+        if: ${{ inputs.seed }}
+        run: npm run db:seed -w database
+        env:
+          CI: 'true'
+          NODE_ENV: production
+          DATABASE_URL: ${{ secrets.PRODUCTION_DATABASE_URL }}
+```

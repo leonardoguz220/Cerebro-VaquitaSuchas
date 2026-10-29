@@ -1,0 +1,83 @@
+---
+title: "Workflow · auto-merge"
+tipo: workflow
+area: implementacion
+parent: "[[CI-CD]]"
+date: 2026-10-29
+tags: [area/implementacion, workflow, ci, github-actions]
+fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/.github/workflows/auto-merge.yml
+---
+
+> Padre: [[CI-CD]]
+
+Activa auto-merge en cada PR; GitHub fusiona cuando se cumplen las reglas de la rama (flow + CI, sin aprobación humana).
+
+Archivo: `.github/workflows/auto-merge.yml`. Los secretos solo aparecen por nombre (`secrets.X`); sus valores viven en GitHub y no están aquí. Visión general: [[CI-CD]].
+
+## Comentario del archivo
+
+Activa el auto-merge de cada PR del repositorio. GitHub lo fusiona solo cuando
+se cumplen las reglas de la rama destino (check "flow" y la CI, sin aprobación humana).
+- hacia dev: squash (una tarea, un commit).
+- hacia qa y main: merge commit, para que dev, qa y main no se desfasen entre sí
+  (con squash, cada promoción genera conflictos en la siguiente).
+- Excepción: las ramas que empiezan con `manual/` no se fusionan solas (p. ej. una reparación de
+  historial que necesita merge commit en dev). Se fusionan a mano con el método que corresponda.
+Requiere "Allow auto-merge" en Settings > General y, en los reglamentos de qa y main,
+permitir el método Merge y no exigir historial lineal.
+
+## Contenido
+
+```yaml
+# Activa el auto-merge de cada PR del repositorio. GitHub lo fusiona solo cuando
+# se cumplen las reglas de la rama destino (check "flow" y la CI, sin aprobación humana).
+# - hacia dev: squash (una tarea, un commit).
+# - hacia qa y main: merge commit, para que dev, qa y main no se desfasen entre sí
+#   (con squash, cada promoción genera conflictos en la siguiente).
+# - Excepción: las ramas que empiezan con `manual/` no se fusionan solas (p. ej. una reparación de
+#   historial que necesita merge commit en dev). Se fusionan a mano con el método que corresponda.
+# Requiere "Allow auto-merge" en Settings > General y, en los reglamentos de qa y main,
+# permitir el método Merge y no exigir historial lineal.
+name: Auto merge
+
+on:
+  pull_request_target:
+    types: [opened, reopened, ready_for_review]
+    branches: [main, qa, dev]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  enable:
+    name: Activar auto-merge
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    # Solo PR de ramas del propio repositorio, que no estén en borrador y que no sean `manual/*`.
+    if: github.event.pull_request.head.repo.full_name == github.repository && !github.event.pull_request.draft && !startsWith(github.head_ref, 'manual/')
+    steps:
+      - name: Activar auto-merge
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          BASE: ${{ github.base_ref }}
+          SHA: ${{ github.event.pull_request.head.sha }}
+          REPO: ${{ github.repository }}
+        run: |
+          if [ "$BASE" = "dev" ]; then METHOD="--squash"; else METHOD="--merge"; fi
+          if gh pr merge --auto "$METHOD" "$PR_URL"; then exit 0; fi
+          # GitHub no deja activar auto-merge si los checks obligatorios ya pasaron
+          # ("clean" o "unstable status"). En ese caso se esperan los demás workflows
+          # del commit (CI, flow...) y se fusiona solo si ninguno falló.
+          for i in $(seq 1 70); do
+            sleep 30
+            RUNS=$(gh api "repos/$REPO/actions/runs?head_sha=$SHA&per_page=50" \
+              --jq '[.workflow_runs[] | select(.name != "Auto merge")]')
+            PENDING=$(echo "$RUNS" | jq '[.[] | select(.status != "completed")] | length')
+            FAILED=$(echo "$RUNS" | jq '[.[] | select(.status == "completed" and (.conclusion | IN("success","skipped","neutral") | not))] | length')
+            if [ "$FAILED" -gt 0 ]; then echo "Hay workflows fallidos; no fusiono."; exit 1; fi
+            if [ "$PENDING" -eq 0 ]; then gh pr merge "$METHOD" "$PR_URL"; exit $?; fi
+          done
+          echo "Los checks no terminaron a tiempo."; exit 1
+```

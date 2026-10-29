@@ -1,35 +1,36 @@
 # Cerebro-VaquitaSuchas
 
-Segundo cerebro del proyecto **Vaquita** (Grupo Suchas) en [Obsidian](https://obsidian.md). Guarda decisiones, specs, glosario, arquitectura, runbooks y reuniones para que las decisiones futuras partan de lo que ya se sabe. El código vive en `leonardoguz220/VaquitaSuchas`.
+Cerebro especializado del proyecto **Vaquita** (Grupo Suchas) hecho en [Obsidian](https://obsidian.md): todo el contexto del proyecto, cómo se desarrolla y los temas teóricos y prácticos que lo rodean (suscripciones compartidas, finanzas aplicadas, método SDD con Spec Kit, arquitectura, modelo de negocio). El código vive en `leonardoguz220/VaquitaSuchas`.
 
 ## Cómo abrirlo
 
 1. Instala Obsidian (gratis).
-2. Clona este repo: `git clone <url-de-este-repo>`.
-3. En Obsidian: *Abrir carpeta como bóveda* y elige la carpeta clonada.
-4. Empieza en `00-Inicio`. El gráfico (Ctrl/Cmd+G) muestra cómo se conectan las notas.
+2. Clona este repo y en Obsidian elige *Abrir carpeta como bóveda*.
+3. Abre `Vaquita-Cerebro` y el gráfico (Ctrl/Cmd+G): cada área tiene su color y los nodos padre son los más grandes.
 
-La configuración compartida de `.obsidian/` activa plantillas (carpeta `90-Plantillas`), enlaces wiki y notas nuevas en `00-Inbox`. Lo personal (espacio de trabajo, tema) está en `.gitignore`.
-
-## Cómo mantenerlo
-
-Lee `Como-mantener-el-vault.md`. Flujo corto: rama `nota/<tema>` → PR a `main` → CI (`check-vault`) → fusionar. Con el plugin comunitario Obsidian Git se puede hacer commit y pull desde la app.
+La configuración compartida de `.obsidian/` trae el gráfico con colores por área, plantillas y enlaces wiki. Lo personal (espacio de trabajo, tema) está en `.gitignore`.
 
 ## Estructura
 
-| Carpeta | Contenido |
-|---|---|
-| `00-Inbox` | Notas sin clasificar |
-| `10-Decisiones` | ADR y decisiones (incluye supuestos pendientes de objeción) |
-| `20-Specs` | Una nota por spec (000 a 011) y el roadmap |
-| `25-Disenos` | Propuestas de diseño previas a una spec |
-| `30-Arquitectura` | Proyecto, stack, capas, endpoints, funcionamiento |
-| `40-Dominio` | Glosario y reglas de negocio |
-| `50-Operaciones` | Flujo de ramas, runbooks, estado de despliegue, pendientes |
-| `60-Equipo` | Personas y roles |
-| `70-Reuniones` | Reuniones y retros |
-| `80-Estudio` | Material de la defensa |
-| `90-Plantillas` | ADR, spec, reunión, retro, runbook |
+```
+Vaquita-Cerebro                 raíz
+├── 01-Implementacion-Vaquita   specs, constitución, plan, backend, frontend, BD, CI/CD, despliegue, estado
+├── 02-Arquitectura             capas, módulos, datos, jobs, integraciones
+├── 03-Dominio                  glosario y reglas de negocio
+├── 04-Operaciones              runbooks, pendientes, mantenimiento del vault
+├── 05-Modelo-de-negocio        suscripciones, valor, competencia, riesgos
+├── 06-SDD-y-SpecKit            el método y cómo se aplica
+├── 07-Finanzas-aplicadas       dinero, USD a Bs, pagos, mora
+├── 08-Calidad-y-Seguridad      pruebas, seguridad, accesibilidad, rendimiento
+├── 09-Herramientas-IA          hooks, subagentes, skills
+└── 90-Plantillas               plantillas de Obsidian (ADR, spec, reunión, retro, runbook)
+```
+
+Colores del gráfico (etiqueta `area/…`): implementación verde, arquitectura azul, dominio rojo, operaciones naranja, negocio violeta, SDD turquesa, finanzas verde oscuro, calidad amarillo, IA magenta.
+
+## Cómo mantenerlo
+
+Lee `04-Operaciones/Como-mantener-el-vault.md`. Resumen: rama `nota/<tema>`, PR a `main`, y `node scripts/check-vault.mjs` en verde (el CI lo corre).
 
 ## Seguridad
 

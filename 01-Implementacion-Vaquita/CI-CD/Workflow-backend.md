@@ -1,0 +1,103 @@
+---
+title: "Workflow · backend"
+tipo: workflow
+area: implementacion
+parent: "[[CI-CD]]"
+date: 2026-10-29
+tags: [area/implementacion, workflow, ci, github-actions]
+fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/.github/workflows/backend.yml
+---
+
+> Padre: [[CI-CD]]
+
+Pruebas del backend por carpeta (solo si cambia backend/ o database/); reutilizable por el despliegue.
+
+Archivo: `.github/workflows/backend.yml`. Los secretos solo aparecen por nombre (`secrets.X`); sus valores viven en GitHub y no están aquí. Visión general: [[CI-CD]].
+
+## Comentario del archivo
+
+Workflow del backend (monorepo: una carpeta, un workflow). Corre solo si cambia backend/ o database/.
+Complementa a ci.yml, que sigue siendo el que exigen las reglas de rama.
+Las credenciales de PostgreSQL son de prueba y viven solo en el runner.
+
+## Contenido
+
+```yaml
+# Workflow del backend (monorepo: una carpeta, un workflow). Corre solo si cambia backend/ o database/.
+# Complementa a ci.yml, que sigue siendo el que exigen las reglas de rama.
+# Las credenciales de PostgreSQL son de prueba y viven solo en el runner.
+name: Backend
+
+on:
+  # Lo reutiliza deploy-backend.yml: prueba antes de pedir el despliegue.
+  workflow_call:
+  pull_request:
+    branches: [main, qa, dev]
+    paths: ['backend/**', 'database/**', 'package.json', 'package-lock.json', '.github/workflows/backend.yml']
+  push:
+    branches: [main]
+    paths: ['backend/**', 'database/**', 'package.json', 'package-lock.json', '.github/workflows/backend.yml']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: backend-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backend:
+    name: backend (lint, build, test)
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    services:
+      db:
+        image: postgres:16.10-alpine
+        env:
+          POSTGRES_USER: vaquita
+          POSTGRES_PASSWORD: vaquita
+          POSTGRES_DB: vaquita_test
+          TZ: UTC
+          PGTZ: UTC
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U vaquita -d vaquita_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+      mail:
+        image: axllent/mailpit:v1.27.0
+        ports:
+          - 1025:1025
+          - 8025:8025
+    env:
+      CI: 'true'
+      DATABASE_URL: postgres://<usuario>:<clave>@localhost:5432/vaquita_test
+      TEST_DATABASE_URL: postgres://<usuario>:<clave>@localhost:5432/vaquita_test
+      SMTP_HOST: localhost
+      SMTP_PORT: '1025'
+      MAILPIT_URL: http://localhost:8025
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Lint (ESLint, Prettier y tsc)
+        run: npm run lint -w backend
+
+      - name: Build
+        run: npm run build -w backend
+
+      - name: Aplicar migraciones a la base de pruebas
+        run: npm run db:migrate
+
+      - name: Pruebas unitarias y de integración
+        run: npm run test -w backend
+```
