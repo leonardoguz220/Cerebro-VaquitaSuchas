@@ -1,0 +1,63 @@
+---
+title: "Workflow · gitleaks-weekly"
+tipo: workflow
+area: implementacion
+parent: "[[CI-CD]]"
+date: 2026-10-29
+tags: [area/implementacion, workflow, ci, github-actions]
+fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/.github/workflows/gitleaks-weekly.yml
+---
+
+> Padre: [[CI-CD]]
+
+Escaneo semanal de secretos sobre todo el historial (lunes).
+
+Archivo: `.github/workflows/gitleaks-weekly.yml`. Los secretos solo aparecen por nombre (`secrets.X`); sus valores viven en GitHub y no están aquí. Visión general: [[CI-CD]].
+
+## Comentario del archivo
+
+Escaneo semanal de secretos sobre el historial completo (spec 000, T042, RNF-000-02, CA-000-18).
+Complementa el job gitleaks de ci.yml, que solo revisa los commits nuevos de cada PR.
+
+## Contenido
+
+```yaml
+# Escaneo semanal de secretos sobre el historial completo (spec 000, T042, RNF-000-02, CA-000-18).
+# Complementa el job gitleaks de ci.yml, que solo revisa los commits nuevos de cada PR.
+name: gitleaks-weekly
+
+on:
+  schedule:
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  gitleaks-history:
+    name: gitleaks-history
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GITLEAKS_VERSION: 8.28.0
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Instalar gitleaks
+        run: |
+          set -euo pipefail
+          archive="gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+          base="https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}"
+          curl -fsSL -o "$RUNNER_TEMP/$archive" "$base/$archive"
+          curl -fsSL -o "$RUNNER_TEMP/checksums.txt" "$base/gitleaks_${GITLEAKS_VERSION}_checksums.txt"
+          (cd "$RUNNER_TEMP" && grep " $archive\$" checksums.txt | sha256sum -c -)
+          tar -xzf "$RUNNER_TEMP/$archive" -C "$RUNNER_TEMP" gitleaks
+          sudo install "$RUNNER_TEMP/gitleaks" /usr/local/bin/gitleaks
+
+      - name: Buscar secretos en todo el historial
+        # --redact evita imprimir el valor del secreto en el log.
+        run: gitleaks git --redact --verbose --config .gitleaks.toml .
+```

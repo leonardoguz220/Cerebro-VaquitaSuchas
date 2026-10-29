@@ -1,26 +1,93 @@
 {
+  "collapse-filter": true,
+  "search": "-path:00-Inbox",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#adr",
+      "query": "tag:#area/raiz",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 16777215
       }
     },
     {
-      "query": "tag:#spec",
+      "query": "tag:#area/implementacion",
       "color": {
         "a": 1,
         "rgb": 5431378
       }
     },
     {
-      "query": "tag:#operaciones",
+      "query": "tag:#area/arquitectura",
+      "color": {
+        "a": 1,
+        "rgb": 3447003
+      }
+    },
+    {
+      "query": "tag:#area/dominio",
+      "color": {
+        "a": 1,
+        "rgb": 15158332
+      }
+    },
+    {
+      "query": "tag:#area/operaciones",
       "color": {
         "a": 1,
         "rgb": 16750848
       }
+    },
+    {
+      "query": "tag:#area/negocio",
+      "color": {
+        "a": 1,
+        "rgb": 10181046
+      }
+    },
+    {
+      "query": "tag:#area/sdd",
+      "color": {
+        "a": 1,
+        "rgb": 1752220
+      }
+    },
+    {
+      "query": "tag:#area/finanzas",
+      "color": {
+        "a": 1,
+        "rgb": 3066993
+      }
+    },
+    {
+      "query": "tag:#area/calidad",
+      "color": {
+        "a": 1,
+        "rgb": 15844367
+      }
+    },
+    {
+      "query": "tag:#area/ia",
+      "color": {
+        "a": 1,
+        "rgb": 16711935
+      }
     }
   ],
-  "showTags": false
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.5,
+  "nodeSizeMultiplier": 1.4,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.4,
+  "repelStrength": 14,
+  "linkStrength": 1,
+  "linkDistance": 180,
+  "scale": 0.6,
+  "close": false
 }

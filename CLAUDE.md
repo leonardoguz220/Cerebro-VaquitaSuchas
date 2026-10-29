@@ -1,10 +1,12 @@
 # Guía para IA sobre este vault
 
-Este vault es la memoria del proyecto Vaquita. Úsalo antes de proponer o tomar una decisión.
+Este vault es el cerebro del proyecto Vaquita y de los temas que lo rodean. Úsalo antes de proponer o tomar una decisión.
 
-1. Empieza por `00-Inicio.md`. Busca por frontmatter: `type: adr|decision|spec|runbook`, `status`, `tags`, `related`.
-2. Las notas con `fuente:` son copias de archivos del repo `leonardoguz220/VaquitaSuchas`; si difieren, manda el repo. Cita siempre la nota y su `fuente`.
-3. Estado `supuesta` significa que alguien decidió por simplicidad y falta objeción; no lo trates como definitivo.
-4. Para registrar una decisión, usa `90-Plantillas/Plantilla-ADR.md`, enlaza specs afectadas con `[[wikilinks]]` y actualiza `20-Specs`.
-5. Nunca escribas secretos, URLs de BD ni datos de usuarios. Escribe en español; nombres de archivo con guiones y sin tildes.
-6. Antes de terminar, corre `node scripts/check-vault.mjs`.
+1. Empieza por `Vaquita-Cerebro.md` y sigue los nodos padre (`tipo: hub`). Cada nota tiene `parent`, `area`, `tipo`, `tags` y, si viene del repo del código, `fuente`.
+2. Las notas con `fuente:` son copias o síntesis de archivos de `leonardoguz220/VaquitaSuchas`; si difieren, manda el repo. Cita la nota y su `fuente`.
+3. Estado `supuesta` = alguien decidió por simplicidad y falta objeción; no es definitivo.
+4. Notas de conocimiento general (negocio, finanzas) son orientativas y piden verificar datos vigentes.
+5. Para registrar una decisión: nota en `01-Implementacion-Vaquita/Decisiones` con la estructura de `90-Plantillas/Template-ADR.md`, enlazando specs afectadas y actualizando el hub `Decisiones`.
+6. Toda nota nueva lleva `parent` y aparece en la lista de hijas de su hub (se agrega con un enlace `[[Nota]]` en el hub). Sin huérfanas.
+7. Nunca escribas secretos, URLs de BD ni datos de usuarios. Español; nombres de archivo con guiones y sin tildes.
+8. Antes de terminar corre `node scripts/check-vault.mjs`.

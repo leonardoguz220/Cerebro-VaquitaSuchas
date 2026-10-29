@@ -1,0 +1,71 @@
+---
+title: "Workflow · deploy-backend"
+tipo: workflow
+area: implementacion
+parent: "[[CI-CD]]"
+date: 2026-10-29
+tags: [area/implementacion, workflow, ci, github-actions]
+fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/.github/workflows/deploy-backend.yml
+---
+
+> Padre: [[CI-CD]]
+
+Despliegue del backend a Render al cambiar backend/, database/ o render.yaml en `dev`.
+
+Archivo: `.github/workflows/deploy-backend.yml`. Los secretos solo aparecen por nombre (`secrets.X`); sus valores viven en GitHub y no están aquí. Visión general: [[CI-CD]].
+
+## Comentario del archivo
+
+Despliegue continuo del backend (Render). Corre cuando cambia backend/, database/ o render.yaml en dev,
+que es la rama que sigue el servicio de Render (ver render.yaml). Primero ejecuta las pruebas del backend
+(backend.yml) y solo si pasan pide el despliegue con un Deploy Hook de Render.
+Necesita el secreto RENDER_DEPLOY_HOOK_URL (Render > servicio > Settings > Deploy Hook). Sin él, se omite
+el despliegue sin fallar. Si Render también tiene «Auto-Deploy» activo, evita el doble despliegue
+poniéndolo en «After CI Checks Pass» o «Off».
+
+## Contenido
+
+```yaml
+# Despliegue continuo del backend (Render). Corre cuando cambia backend/, database/ o render.yaml en dev,
+# que es la rama que sigue el servicio de Render (ver render.yaml). Primero ejecuta las pruebas del backend
+# (backend.yml) y solo si pasan pide el despliegue con un Deploy Hook de Render.
+# Necesita el secreto RENDER_DEPLOY_HOOK_URL (Render > servicio > Settings > Deploy Hook). Sin él, se omite
+# el despliegue sin fallar. Si Render también tiene «Auto-Deploy» activo, evita el doble despliegue
+# poniéndolo en «After CI Checks Pass» o «Off».
+name: Deploy backend
+
+on:
+  push:
+    branches: [dev]
+    paths: ['backend/**', 'database/**', 'render.yaml', '.github/workflows/deploy-backend.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-backend
+  cancel-in-progress: false
+
+jobs:
+  test:
+    name: pruebas del backend
+    uses: ./.github/workflows/backend.yml
+
+  deploy:
+    name: desplegar en Render
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Pedir el despliegue a Render
+        env:
+          HOOK: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "Falta el secreto RENDER_DEPLOY_HOOK_URL: se omite el despliegue."
+            exit 0
+          fi
+          curl -fsS -X POST "$HOOK" > /dev/null
+          echo "Despliegue solicitado a Render."
+```
