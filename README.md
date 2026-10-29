@@ -26,7 +26,7 @@ Vaquita-Cerebro                 raíz
 └── 90-Plantillas               plantillas de Obsidian (ADR, spec, reunión, retro, runbook)
 ```
 
-Colores del gráfico (etiqueta `area/…`): implementación verde, arquitectura azul, dominio rojo, operaciones naranja, negocio violeta, SDD turquesa, finanzas verde oscuro, calidad amarillo, IA magenta.
+Colores del gráfico (etiqueta `area/…`): implementación verde lima, arquitectura azul, dominio rojo, operaciones naranja, negocio violeta, SDD turquesa, finanzas dorado, calidad rosa, IA índigo. Para agregar un nodo padre nuevo con su color: `node scripts/nuevo-nodo-padre.mjs <area> "<Titulo>" [#color]`.
 
 ## Cómo mantenerlo
 

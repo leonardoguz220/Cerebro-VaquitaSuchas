@@ -29,6 +29,16 @@ Raíz [[Vaquita-Cerebro]] → nueve nodos padre (carpetas `01-` a `09-`): Implem
 4. Antes de cada PR: `node scripts/check-vault.mjs` (frontmatter, padre, huérfanas, enlaces rotos y secretos). El CI ([[Workflow-check-vault-del-cerebro]]) lo corre.
 5. Ramas `nota/<tema>` y PR a `main`.
 
+## Cómo agregar un nodo padre nuevo
+
+Los nodos padre son los temas grandes del cerebro; puedes sumar los que quieras (por ejemplo legal, UX, datos, aprendizaje). Cada uno tiene su propio color en el gráfico.
+
+1. Corre `node scripts/nuevo-nodo-padre.mjs <area> "<Titulo>" [#color]`, por ejemplo `node scripts/nuevo-nodo-padre.mjs legal "Marco legal" "#00b894"`. Crea la carpeta numerada, la nota hub, el enlace en [[Vaquita-Cerebro]] y el color en `.obsidian/graph.json`. Sin color, elige uno libre.
+2. Escribe las notas hijas con `parent: "[[Nombre-del-hub]]"`, `area: <area>` y la etiqueta `area/<area>`, y enlázalas desde el hub.
+3. Corre `node scripts/check-vault.mjs`: exige que cada área tenga color, padre y enlaces válidos.
+
+A mano: copia `90-Plantillas/Template-Nodo-padre.md`, agrega un grupo de color `tag:#area/<area>` en el gráfico (panel de ajustes del gráfico en Obsidian) y enlázalo desde la raíz.
+
 ## Seguridad
 Nunca guardes contraseñas, tokens, claves, URLs de base de datos, CI ni datos de usuarios: describe la variable, no su valor.
 

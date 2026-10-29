@@ -18,7 +18,7 @@
       "query": "tag:#area/implementacion",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 8316247
       }
     },
     {
@@ -39,7 +39,7 @@
       "query": "tag:#area/operaciones",
       "color": {
         "a": 1,
-        "rgb": 16750848
+        "rgb": 15105570
       }
     },
     {
@@ -53,28 +53,28 @@
       "query": "tag:#area/sdd",
       "color": {
         "a": 1,
-        "rgb": 1752220
+        "rgb": 52945
       }
     },
     {
       "query": "tag:#area/finanzas",
       "color": {
         "a": 1,
-        "rgb": 3066993
+        "rgb": 15844367
       }
     },
     {
       "query": "tag:#area/calidad",
       "color": {
         "a": 1,
-        "rgb": 15844367
+        "rgb": 16742325
       }
     },
     {
       "query": "tag:#area/ia",
       "color": {
         "a": 1,
-        "rgb": 16711935
+        "rgb": 5793266
       }
     }
   ],
