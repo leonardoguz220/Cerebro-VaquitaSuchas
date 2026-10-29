@@ -1,11 +1,11 @@
 ---
 title: "Spec 008 · Texto completo de la spec"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Spec-008-cupos-libres]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-008]
+tags: [area/specs, spec, spec-008]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/008-cupos-libres/spec.md
 ---
 

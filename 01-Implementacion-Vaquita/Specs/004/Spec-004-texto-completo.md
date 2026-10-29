@@ -1,11 +1,11 @@
 ---
 title: "Spec 004 · Texto completo de la spec"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Spec-004-catalogo-de-servicios]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-004]
+tags: [area/specs, spec, spec-004]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/004-catalogo-de-servicios/spec.md
 ---
 

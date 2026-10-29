@@ -1,11 +1,11 @@
 ---
 title: "Spec 002 · Texto completo de la spec"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Spec-002-cobros-y-pagos]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-002]
+tags: [area/specs, spec, spec-002]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/002-cobros-y-pagos/spec.md
 ---
 

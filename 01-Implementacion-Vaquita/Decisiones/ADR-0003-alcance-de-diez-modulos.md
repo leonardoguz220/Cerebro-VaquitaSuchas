@@ -1,11 +1,11 @@
 ---
 title: "0003. Alcance de diez módulos, construcción por prioridad"
 tipo: adr
-area: implementacion
+area: decisiones
 parent: "[[Decisiones]]"
 status: aceptada
 date: 2026-10-17
-tags: [area/implementacion, adr, decision]
+tags: [area/decisiones, adr, decision]
 related: ["[[Roadmap-de-specs]]", "[[Modelo-de-negocio]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/context/decisiones/0003-alcance-de-diez-modulos.md
 ---

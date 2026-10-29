@@ -1,11 +1,11 @@
 ---
 title: "Spec 000 · Texto completo de la spec"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Spec-000-setup-del-proyecto]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-000]
+tags: [area/specs, spec, spec-000]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/000-setup-del-proyecto/spec.md
 ---
 

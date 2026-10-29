@@ -1,10 +1,10 @@
 ---
 title: "Backend · módulo catalog"
 tipo: backend
-area: implementacion
+area: backend
 parent: "[[Backend]]"
 date: 2026-10-29
-tags: [area/implementacion, backend, backend, spec-004]
+tags: [area/backend, backend, backend, spec-004]
 related: ["[[Spec-004-catalogo-de-servicios]]"]
 ---
 

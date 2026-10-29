@@ -1,10 +1,10 @@
 ---
 title: "BD · pruebas de integridad"
 tipo: bd
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, bd, pruebas]
+tags: [area/bd, bd, pruebas]
 ---
 
 > Padre: [[BD]]

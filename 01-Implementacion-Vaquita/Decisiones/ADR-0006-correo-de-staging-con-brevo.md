@@ -1,11 +1,11 @@
 ---
 title: "0006. Correo de staging con Brevo"
 tipo: adr
-area: implementacion
+area: decisiones
 parent: "[[Decisiones]]"
 status: aceptada
 date: 2026-10-26
-tags: [area/implementacion, adr, decision]
+tags: [area/decisiones, adr, decision]
 related: ["[[Brevo-correo]]", "[[Runbook-correo-staging]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/context/decisiones/0006-correo-de-staging-con-brevo.md
 ---

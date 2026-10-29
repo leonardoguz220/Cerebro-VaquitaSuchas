@@ -1,10 +1,10 @@
 ---
 title: "Backend · módulo reports"
 tipo: backend
-area: implementacion
+area: backend
 parent: "[[Backend]]"
 date: 2026-10-29
-tags: [area/implementacion, backend, backend, spec-006]
+tags: [area/backend, backend, backend, spec-006]
 related: ["[[Spec-006-panel-y-reportes]]"]
 ---
 

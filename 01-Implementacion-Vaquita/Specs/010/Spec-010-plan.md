@@ -1,10 +1,10 @@
 ---
 title: "Spec 010 · Plan"
 tipo: plan
-area: implementacion
+area: plan
 parent: "[[Spec-010-solicitudes-de-ingreso]]"
 date: 2026-10-29
-tags: [area/implementacion, plan, spec-010]
+tags: [area/plan, plan, spec-010]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/010-solicitudes-de-ingreso/plan.md
 ---
 

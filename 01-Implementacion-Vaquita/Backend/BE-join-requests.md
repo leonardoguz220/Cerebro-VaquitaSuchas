@@ -1,10 +1,10 @@
 ---
 title: "Backend · módulo join-requests"
 tipo: backend
-area: implementacion
+area: backend
 parent: "[[Backend]]"
 date: 2026-10-29
-tags: [area/implementacion, backend, backend, spec-010]
+tags: [area/backend, backend, backend, spec-010]
 related: ["[[Spec-010-solicitudes-de-ingreso]]"]
 ---
 

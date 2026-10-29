@@ -1,10 +1,10 @@
 ---
 title: "BD (base de datos)"
 tipo: hub
-area: implementacion
+area: bd
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, hub]
+tags: [area/bd, hub]
 related: ["[[Backend]]", "[[Frontend]]"]
 ---
 

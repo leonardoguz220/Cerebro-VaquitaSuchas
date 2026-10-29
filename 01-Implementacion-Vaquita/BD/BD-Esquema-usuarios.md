@@ -1,10 +1,10 @@
 ---
 title: "BD · esquema: Usuarios e identidad"
 tipo: bd
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, bd, migraciones, spec-003]
+tags: [area/bd, bd, migraciones, spec-003]
 related: ["[[Spec-003-usuarios-y-autenticacion]]", "[[BD-Migraciones]]"]
 ---
 

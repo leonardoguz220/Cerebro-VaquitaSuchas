@@ -1,10 +1,10 @@
 ---
 title: "Spec 004 · Contrato de API"
 tipo: plan
-area: implementacion
+area: plan
 parent: "[[Spec-004-catalogo-de-servicios]]"
 date: 2026-10-29
-tags: [area/implementacion, plan, spec-004]
+tags: [area/plan, plan, spec-004]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/004-catalogo-de-servicios/contracts/api.md
 ---
 

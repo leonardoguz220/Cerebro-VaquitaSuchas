@@ -1,10 +1,10 @@
 ---
 title: "Proyecto Vaquita"
 tipo: context
-area: implementacion
+area: proyecto
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, context]
+tags: [area/proyecto, context]
 related: ["[[Modelo-de-negocio]]", "[[Equipo]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/context/proyecto.md
 ---

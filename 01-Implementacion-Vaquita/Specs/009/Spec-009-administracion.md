@@ -1,11 +1,11 @@
 ---
 title: "Spec 009: Administración"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-009]
+tags: [area/specs, spec, spec-009]
 related: ["[[BE-admin]]", "[[BD-Esquema-administracion]]", "[[ADR-0004-ingreso-con-pago-previo-y-chat]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/009-administracion/spec.md
 spec_id: "009"

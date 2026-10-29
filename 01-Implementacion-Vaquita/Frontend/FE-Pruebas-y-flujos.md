@@ -1,10 +1,10 @@
 ---
 title: "Frontend · pruebas y flujos E2E"
 tipo: frontend
-area: implementacion
+area: frontend
 parent: "[[Frontend]]"
 date: 2026-10-29
-tags: [area/implementacion, frontend, pruebas]
+tags: [area/frontend, frontend, pruebas]
 ---
 
 > Padre: [[Frontend]]

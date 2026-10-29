@@ -1,11 +1,11 @@
 ---
 title: "Spec 002: Cobros y pagos"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-002]
+tags: [area/specs, spec, spec-002]
 related: ["[[BE-billing]]", "[[BD-Esquema-cobros]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/002-cobros-y-pagos/spec.md
 spec_id: "002"

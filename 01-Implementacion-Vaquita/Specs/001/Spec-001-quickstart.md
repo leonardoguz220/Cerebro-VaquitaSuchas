@@ -1,10 +1,10 @@
 ---
 title: "Spec 001 · Quickstart"
 tipo: plan
-area: implementacion
+area: plan
 parent: "[[Spec-001-suscripciones-compartidas]]"
 date: 2026-10-29
-tags: [area/implementacion, plan, spec-001]
+tags: [area/plan, plan, spec-001]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/001-suscripciones-compartidas/quickstart.md
 ---
 

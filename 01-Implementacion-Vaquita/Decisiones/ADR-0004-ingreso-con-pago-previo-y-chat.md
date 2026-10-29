@@ -1,11 +1,11 @@
 ---
 title: "0004. Ingreso al grupo con pago previo y chat por solicitud"
 tipo: adr
-area: implementacion
+area: decisiones
 parent: "[[Decisiones]]"
 status: aceptada
 date: 2026-10-17
-tags: [area/implementacion, adr, decision]
+tags: [area/decisiones, adr, decision]
 related: ["[[Spec-010-solicitudes-de-ingreso]]", "[[Riesgos-y-fraude]]", "[[Ingreso-al-grupo]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/context/decisiones/0004-ingreso-con-pago-previo-y-chat.md
 ---

@@ -1,11 +1,11 @@
 ---
 title: "0001. PostgreSQL como base de datos"
 tipo: adr
-area: implementacion
+area: decisiones
 parent: "[[Decisiones]]"
 status: aceptada
 date: 2026-10-17
-tags: [area/implementacion, adr, decision]
+tags: [area/decisiones, adr, decision]
 related: ["[[Stack]]", "[[BD]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/context/decisiones/0001-postgresql-como-base-de-datos.md
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Spec 007 · Quickstart"
 tipo: plan
-area: implementacion
+area: plan
 parent: "[[Spec-007-reputacion]]"
 date: 2026-10-29
-tags: [area/implementacion, plan, spec-007]
+tags: [area/plan, plan, spec-007]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/007-reputacion/quickstart.md
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "Plantilla de pull request"
 tipo: guia
-area: implementacion
+area: desarrollo
 parent: "[[Desarrollo-por-tarea]]"
 date: 2026-10-29
-tags: [area/implementacion, guia]
+tags: [area/desarrollo, guia]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/.github/pull_request_template.md
 ---
 

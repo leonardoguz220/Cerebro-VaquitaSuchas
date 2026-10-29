@@ -1,10 +1,10 @@
 ---
 title: "BD · las migraciones"
 tipo: bd
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, bd, migraciones]
+tags: [area/bd, bd, migraciones]
 ---
 
 > Padre: [[BD]]

@@ -1,10 +1,10 @@
 ---
 title: "Plantilla de ADR"
 tipo: plantilla
-area: implementacion
+area: decisiones
 parent: "[[Decisiones]]"
 date: 2026-10-29
-tags: [area/implementacion, plantilla]
+tags: [area/decisiones, plantilla]
 ---
 
 > Padre: [[Decisiones]]

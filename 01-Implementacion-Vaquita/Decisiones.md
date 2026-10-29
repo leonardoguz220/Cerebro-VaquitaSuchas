@@ -1,10 +1,10 @@
 ---
 title: "Decisiones"
 tipo: hub
-area: implementacion
+area: decisiones
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, hub]
+tags: [area/decisiones, hub]
 related: ["[[Specs]]", "[[Dominio]]"]
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "Spec 005 · Tareas"
 tipo: tasks
-area: implementacion
+area: desarrollo
 parent: "[[Spec-005-notificaciones]]"
 date: 2026-10-29
-tags: [area/implementacion, tasks, spec-005]
+tags: [area/desarrollo, tasks, spec-005]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/005-notificaciones/tasks.md
 ---
 

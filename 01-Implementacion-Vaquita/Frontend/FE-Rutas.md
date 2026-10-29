@@ -1,10 +1,10 @@
 ---
 title: "Frontend · rutas y pantallas"
 tipo: frontend
-area: implementacion
+area: frontend
 parent: "[[Frontend]]"
 date: 2026-10-29
-tags: [area/implementacion, frontend, rutas]
+tags: [area/frontend, frontend, rutas]
 ---
 
 > Padre: [[Frontend]]

@@ -1,10 +1,10 @@
 ---
 title: "Backend · módulo shortfalls"
 tipo: backend
-area: implementacion
+area: backend
 parent: "[[Backend]]"
 date: 2026-10-29
-tags: [area/implementacion, backend, backend, spec-011]
+tags: [area/backend, backend, backend, spec-011]
 related: ["[[Spec-011-faltante-de-grupo]]"]
 ---
 

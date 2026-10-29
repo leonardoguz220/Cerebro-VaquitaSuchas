@@ -1,11 +1,11 @@
 ---
 title: "Spec 011: Faltante de grupo (cubrir la diferencia o pedir devolución)"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-011]
+tags: [area/specs, spec, spec-011]
 related: ["[[BE-shortfalls]]", "[[BD-Esquema-faltante]]", "[[Decision-plazos-faltante-grupo]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/011-faltante-de-grupo/spec.md
 spec_id: "011"

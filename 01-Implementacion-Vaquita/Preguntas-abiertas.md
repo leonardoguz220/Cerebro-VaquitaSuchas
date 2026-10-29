@@ -1,10 +1,10 @@
 ---
 title: "Preguntas abiertas de las specs"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 date: 2026-10-29
-tags: [area/implementacion, spec]
+tags: [area/specs, spec]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/00-preguntas-abiertas.md
 ---
 

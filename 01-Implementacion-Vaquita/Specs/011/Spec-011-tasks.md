@@ -1,10 +1,10 @@
 ---
 title: "Spec 011 · Tareas"
 tipo: tasks
-area: implementacion
+area: desarrollo
 parent: "[[Spec-011-faltante-de-grupo]]"
 date: 2026-10-29
-tags: [area/implementacion, tasks, spec-011]
+tags: [area/desarrollo, tasks, spec-011]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/011-faltante-de-grupo/tasks.md
 ---
 

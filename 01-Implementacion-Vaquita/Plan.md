@@ -1,10 +1,10 @@
 ---
 title: "Plan"
 tipo: hub
-area: implementacion
+area: plan
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, hub]
+tags: [area/plan, hub]
 related: ["[[Specs]]", "[[Arquitectura]]"]
 ---
 

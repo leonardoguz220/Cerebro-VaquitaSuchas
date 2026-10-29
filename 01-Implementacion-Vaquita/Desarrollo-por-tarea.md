@@ -1,10 +1,10 @@
 ---
 title: "Desarrollo por tarea (cómo trabaja cada uno)"
 tipo: hub
-area: implementacion
+area: desarrollo
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, hub]
+tags: [area/desarrollo, hub]
 related: ["[[SDD-y-SpecKit]]", "[[Equipo]]"]
 ---
 

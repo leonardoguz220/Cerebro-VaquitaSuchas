@@ -1,10 +1,10 @@
 ---
 title: "Spec 002 · Tareas"
 tipo: tasks
-area: implementacion
+area: desarrollo
 parent: "[[Spec-002-cobros-y-pagos]]"
 date: 2026-10-29
-tags: [area/implementacion, tasks, spec-002]
+tags: [area/desarrollo, tasks, spec-002]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/002-cobros-y-pagos/tasks.md
 ---
 

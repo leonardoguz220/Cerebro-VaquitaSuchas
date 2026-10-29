@@ -1,11 +1,11 @@
 ---
 title: "Spec 000: Setup del proyecto"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-000]
+tags: [area/specs, spec, spec-000]
 related: ["[[BE-Jobs]]", "[[BE-Shared]]", "[[BD-Esquema-plataforma]]", "[[ADR-0006-correo-de-staging-con-brevo]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/000-setup-del-proyecto/spec.md
 spec_id: "000"

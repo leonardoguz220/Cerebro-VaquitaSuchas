@@ -1,10 +1,10 @@
 ---
 title: "Guía de estudio: defensa de Vaquita"
 tipo: study
-area: implementacion
+area: proyecto
 parent: "[[Estudio-y-presentacion]]"
 date: 2026-10-29
-tags: [area/implementacion, study, carpeta-compartida]
+tags: [area/proyecto, study, carpeta-compartida]
 ---
 
 > Padre: [[Estudio-y-presentacion]]

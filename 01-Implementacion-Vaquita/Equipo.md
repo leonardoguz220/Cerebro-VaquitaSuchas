@@ -1,10 +1,10 @@
 ---
 title: "Equipo y roles"
 tipo: hub
-area: implementacion
+area: desarrollo
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, hub]
+tags: [area/desarrollo, hub]
 ---
 
 > Padre: [[Implementacion-Vaquita]]

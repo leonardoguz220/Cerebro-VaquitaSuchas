@@ -1,10 +1,10 @@
 ---
 title: "Frontend · componentes, hooks, servicios y utilidades"
 tipo: frontend
-area: implementacion
+area: frontend
 parent: "[[Frontend]]"
 date: 2026-10-29
-tags: [area/implementacion, frontend, componentes]
+tags: [area/frontend, frontend, componentes]
 ---
 
 > Padre: [[Frontend]]

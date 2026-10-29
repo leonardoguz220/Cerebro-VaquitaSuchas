@@ -1,10 +1,10 @@
 ---
 title: "Spec 010 · Tareas"
 tipo: tasks
-area: implementacion
+area: desarrollo
 parent: "[[Spec-010-solicitudes-de-ingreso]]"
 date: 2026-10-29
-tags: [area/implementacion, tasks, spec-010]
+tags: [area/desarrollo, tasks, spec-010]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/010-solicitudes-de-ingreso/tasks.md
 ---
 

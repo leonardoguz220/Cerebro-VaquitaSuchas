@@ -1,11 +1,11 @@
 ---
 title: "Spec 004: Catálogo de servicios"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-004]
+tags: [area/specs, spec, spec-004]
 related: ["[[BE-catalog]]", "[[BD-Esquema-catalogo]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/004-catalogo-de-servicios/spec.md
 spec_id: "004"

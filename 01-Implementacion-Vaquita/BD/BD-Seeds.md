@@ -1,10 +1,10 @@
 ---
 title: "BD · seeds (catálogo y datos de desarrollo)"
 tipo: bd
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, bd]
+tags: [area/bd, bd]
 related: ["[[Spec-004-catalogo-de-servicios]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/database/seeds/README.md
 ---

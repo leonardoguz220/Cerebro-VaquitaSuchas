@@ -1,10 +1,10 @@
 ---
 title: "Frontend"
 tipo: hub
-area: implementacion
+area: frontend
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, hub]
+tags: [area/frontend, hub]
 related: ["[[Backend]]", "[[BD]]"]
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: "0005. Identidad con cédula y celular verificado por Telegram"
 tipo: adr
-area: implementacion
+area: decisiones
 parent: "[[Decisiones]]"
 status: aceptada
 date: 2026-10-17
-tags: [area/implementacion, adr, decision]
+tags: [area/decisiones, adr, decision]
 related: ["[[Spec-003-usuarios-y-autenticacion]]", "[[Telegram-bot]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/context/decisiones/0005-identidad-con-cedula-y-celular-verificado.md
 ---

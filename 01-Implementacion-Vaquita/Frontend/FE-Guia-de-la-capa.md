@@ -1,10 +1,10 @@
 ---
 title: "Frontend · guía de la capa (CLAUDE.md y AGENTS.md)"
 tipo: guia
-area: implementacion
+area: frontend
 parent: "[[Frontend]]"
 date: 2026-10-29
-tags: [area/implementacion, guia]
+tags: [area/frontend, guia]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/frontend/CLAUDE.md
 ---
 

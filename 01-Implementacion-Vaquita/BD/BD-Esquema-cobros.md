@@ -1,10 +1,10 @@
 ---
 title: "BD · esquema: Ciclos, cobros y comprobantes"
 tipo: bd
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, bd, migraciones, spec-002]
+tags: [area/bd, bd, migraciones, spec-002]
 related: ["[[Spec-002-cobros-y-pagos]]", "[[BD-Migraciones]]"]
 ---
 

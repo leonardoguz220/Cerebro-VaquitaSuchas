@@ -1,10 +1,10 @@
 ---
 title: "BD · esquema: Plataforma: extensiones, job_runs, rate_limit_events y telegram_updates"
 tipo: bd
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, bd, migraciones, spec-000]
+tags: [area/bd, bd, migraciones, spec-000]
 related: ["[[Spec-000-setup-del-proyecto]]", "[[BD-Migraciones]]"]
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "Spec 009 · Tareas"
 tipo: tasks
-area: implementacion
+area: desarrollo
 parent: "[[Spec-009-administracion]]"
 date: 2026-10-29
-tags: [area/implementacion, tasks, spec-009]
+tags: [area/desarrollo, tasks, spec-009]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/009-administracion/tasks.md
 ---
 

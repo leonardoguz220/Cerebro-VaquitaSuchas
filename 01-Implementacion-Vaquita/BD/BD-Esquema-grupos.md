@@ -1,10 +1,10 @@
 ---
 title: "BD · esquema: Grupos y miembros"
 tipo: bd
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, bd, migraciones, spec-001]
+tags: [area/bd, bd, migraciones, spec-001]
 related: ["[[Spec-001-suscripciones-compartidas]]", "[[BD-Migraciones]]"]
 ---
 

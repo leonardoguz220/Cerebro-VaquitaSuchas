@@ -1,10 +1,10 @@
 ---
 title: "Backend · módulo admin"
 tipo: backend
-area: implementacion
+area: backend
 parent: "[[Backend]]"
 date: 2026-10-29
-tags: [area/implementacion, backend, backend, spec-009]
+tags: [area/backend, backend, backend, spec-009]
 related: ["[[Spec-009-administracion]]"]
 ---
 

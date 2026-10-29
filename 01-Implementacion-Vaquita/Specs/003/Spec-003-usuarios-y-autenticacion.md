@@ -1,11 +1,11 @@
 ---
 title: "Spec 003: Usuarios y autenticación"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-003]
+tags: [area/specs, spec, spec-003]
 related: ["[[BE-auth]]", "[[BE-users]]", "[[BD-Esquema-usuarios]]", "[[ADR-0005-identidad-cedula-telegram]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/003-usuarios-y-autenticacion/spec.md
 spec_id: "003"

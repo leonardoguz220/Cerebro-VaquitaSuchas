@@ -1,10 +1,10 @@
 ---
 title: "Spec 009 · Contrato de API"
 tipo: plan
-area: implementacion
+area: plan
 parent: "[[Spec-009-administracion]]"
 date: 2026-10-29
-tags: [area/implementacion, plan, spec-009]
+tags: [area/plan, plan, spec-009]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/009-administracion/contracts/api.md
 ---
 

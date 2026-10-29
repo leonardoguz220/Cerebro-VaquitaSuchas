@@ -9,4 +9,5 @@ Este vault es el cerebro del proyecto Vaquita y de los temas que lo rodean. Úsa
 5. Para registrar una decisión: nota en `01-Implementacion-Vaquita/Decisiones` con la estructura de `90-Plantillas/Template-ADR.md`, enlazando specs afectadas y actualizando el hub `Decisiones`.
 6. Toda nota nueva lleva `parent` y aparece en la lista de hijas de su hub (se agrega con un enlace `[[Nota]]` en el hub). Sin huérfanas.
 7. Nunca escribas secretos, URLs de BD ni datos de usuarios. Español; nombres de archivo con guiones y sin tildes.
-8. Antes de terminar corre `node scripts/check-vault.mjs`.
+8. Para un tema grande nuevo usa `node scripts/nuevo-nodo-padre.mjs <area> "<Titulo>" [#color]` (crea hub, color y enlace en la raíz); toda `area` debe tener color en `.obsidian/graph.json`.
+9. Antes de terminar corre `node scripts/check-vault.mjs`.

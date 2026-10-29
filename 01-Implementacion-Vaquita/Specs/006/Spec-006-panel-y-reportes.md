@@ -1,11 +1,11 @@
 ---
 title: "Spec 006: Panel y reportes"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-006]
+tags: [area/specs, spec, spec-006]
 related: ["[[BE-reports]]", "[[BD-Esquema-reportes]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/006-panel-y-reportes/spec.md
 spec_id: "006"

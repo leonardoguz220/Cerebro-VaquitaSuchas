@@ -1,10 +1,10 @@
 ---
 title: "Spec 008 · Modelo de datos"
 tipo: plan
-area: implementacion
+area: plan
 parent: "[[Spec-008-cupos-libres]]"
 date: 2026-10-29
-tags: [area/implementacion, plan, spec-008]
+tags: [area/plan, plan, spec-008]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/008-cupos-libres/data-model.md
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "CONTRIBUTING.md completo (cómo trabaja el equipo)"
 tipo: guia
-area: implementacion
+area: desarrollo
 parent: "[[Desarrollo-por-tarea]]"
 date: 2026-10-29
-tags: [area/implementacion, guia]
+tags: [area/desarrollo, guia]
 related: ["[[Equipo]]", "[[SDD-Como-se-aplica-en-Vaquita]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/CONTRIBUTING.md
 ---

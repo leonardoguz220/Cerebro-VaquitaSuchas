@@ -1,11 +1,11 @@
 ---
 title: "Spec 001 · Texto completo de la spec"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Spec-001-suscripciones-compartidas]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-001]
+tags: [area/specs, spec, spec-001]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/001-suscripciones-compartidas/spec.md
 ---
 

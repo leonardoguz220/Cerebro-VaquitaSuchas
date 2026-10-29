@@ -1,10 +1,10 @@
 ---
 title: "Brevo (correo transaccional de staging)"
 tipo: infra
-area: implementacion
+area: despliegue
 parent: "[[Despliegue]]"
 date: 2026-10-29
-tags: [area/implementacion, infra, correo]
+tags: [area/despliegue, infra, correo]
 ---
 
 > Padre: [[Despliegue]]

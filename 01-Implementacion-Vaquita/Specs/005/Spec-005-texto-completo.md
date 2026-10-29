@@ -1,11 +1,11 @@
 ---
 title: "Spec 005 · Texto completo de la spec"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Spec-005-notificaciones]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-005]
+tags: [area/specs, spec, spec-005]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/005-notificaciones/spec.md
 ---
 

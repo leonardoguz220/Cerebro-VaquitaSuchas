@@ -21,6 +21,9 @@ for (const f of notes) {
   if (names.has(n)) console.error(`nombre repetido: ${n}`);
   names.set(n, f);
 }
+const graphAreas = new Set(
+  JSON.parse(readFileSync(join(root, '.obsidian/graph.json'), 'utf8')).colorGroups.map((g) => (g.query.match(/tag:#area\/(\S+)/) || [])[1]),
+);
 let errors = 0;
 const fail = (f, m) => { console.error(`${rel(f)}: ${m}`); errors++; };
 const secrets = /(postgres(ql)?:\/\/(?!<)[^\s]+:[^\s]+@|xkeysib-|sbp_[a-z0-9]{10}|ghp_[A-Za-z0-9]{20}|eyJ[A-Za-z0-9_-]{20,}\.)/;
@@ -36,6 +39,7 @@ for (const f of notes) {
   for (const k of ['title', 'tipo', 'area', 'tags']) if (!new RegExp(`^${k}:`, 'm').test(fm)) fail(f, `falta "${k}"`);
   const area = (fm.match(/^area:\s*(\S+)/m) || [])[1];
   if (area && !new RegExp(`^tags:.*area/${area}`, 'm').test(fm)) fail(f, `tags debe incluir area/${area}`);
+  if (area && !graphAreas.has(area)) fail(f, `el área "${area}" no tiene color en .obsidian/graph.json (usa scripts/nuevo-nodo-padre.mjs)`);
   const isRoot = basename(f) === 'Vaquita-Cerebro.md';
   const parent = (fm.match(/^parent:\s*"\[\[([^\]]+)\]\]"/m) || [])[1];
   if (!isRoot && !parent) fail(f, 'falta parent');

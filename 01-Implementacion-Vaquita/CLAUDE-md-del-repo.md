@@ -1,10 +1,10 @@
 ---
 title: "CLAUDE.md del repo VaquitaSuchas (instrucciones del proyecto)"
 tipo: guia
-area: implementacion
+area: proyecto
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, guia]
+tags: [area/proyecto, guia]
 related: ["[[Herramientas-IA]]", "[[SDD-Como-se-aplica-en-Vaquita]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/CLAUDE.md
 ---

@@ -1,11 +1,11 @@
 ---
 title: "Spec 001: Suscripciones compartidas"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-001]
+tags: [area/specs, spec, spec-001]
 related: ["[[BE-subscriptions]]", "[[BD-Esquema-grupos]]", "[[ADR-0003-alcance-de-diez-modulos]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/001-suscripciones-compartidas/spec.md
 spec_id: "001"

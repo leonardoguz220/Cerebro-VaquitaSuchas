@@ -1,10 +1,10 @@
 ---
 title: "Frontend · diseños (mockups)"
 tipo: frontend
-area: implementacion
+area: frontend
 parent: "[[Frontend]]"
 date: 2026-10-29
-tags: [area/implementacion, frontend, diseno]
+tags: [area/frontend, frontend, diseno]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/frontend/design/mockups/README.md
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "cron-job.org (disparador de tareas)"
 tipo: infra
-area: implementacion
+area: despliegue
 parent: "[[Despliegue]]"
 date: 2026-10-29
-tags: [area/implementacion, infra, jobs]
+tags: [area/despliegue, infra, jobs]
 ---
 
 > Padre: [[Despliegue]]

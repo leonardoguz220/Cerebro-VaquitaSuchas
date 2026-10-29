@@ -1,11 +1,11 @@
 ---
 title: "Spec 010 · Texto completo de la spec"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Spec-010-solicitudes-de-ingreso]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-010]
+tags: [area/specs, spec, spec-010]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/010-solicitudes-de-ingreso/spec.md
 ---
 
