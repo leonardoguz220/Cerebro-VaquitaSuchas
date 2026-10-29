@@ -1,11 +1,11 @@
 ---
 title: "Spec 007 · Texto completo de la spec"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Spec-007-reputacion]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-007]
+tags: [area/specs, spec, spec-007]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/007-reputacion/spec.md
 ---
 

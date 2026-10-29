@@ -1,11 +1,11 @@
 ---
 title: "Spec 005: Notificaciones"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-005]
+tags: [area/specs, spec, spec-005]
 related: ["[[BE-notifications]]", "[[BE-telegram]]", "[[BD-Esquema-notificaciones]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/005-notificaciones/spec.md
 spec_id: "005"

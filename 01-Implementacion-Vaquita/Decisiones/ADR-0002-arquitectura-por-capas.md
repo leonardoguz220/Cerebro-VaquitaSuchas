@@ -1,11 +1,11 @@
 ---
 title: "0002. Arquitectura por capas"
 tipo: adr
-area: implementacion
+area: decisiones
 parent: "[[Decisiones]]"
 status: propuesta
 date: 2026-10-17
-tags: [area/implementacion, adr, decision]
+tags: [area/decisiones, adr, decision]
 related: ["[[Arquitectura-por-capas]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/context/decisiones/0002-arquitectura-por-capas.md
 ---

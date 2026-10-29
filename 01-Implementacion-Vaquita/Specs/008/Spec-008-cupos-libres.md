@@ -1,11 +1,11 @@
 ---
 title: "Spec 008: Cupos libres"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-008]
+tags: [area/specs, spec, spec-008]
 related: ["[[BE-listings]]", "[[BD-Esquema-cupos]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/008-cupos-libres/spec.md
 spec_id: "008"

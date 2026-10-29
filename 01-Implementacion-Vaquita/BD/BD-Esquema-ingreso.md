@@ -1,10 +1,10 @@
 ---
 title: "BD · esquema: Solicitudes de ingreso, chat y reclamos"
 tipo: bd
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, bd, migraciones, spec-010]
+tags: [area/bd, bd, migraciones, spec-010]
 related: ["[[Spec-010-solicitudes-de-ingreso]]", "[[BD-Migraciones]]"]
 ---
 

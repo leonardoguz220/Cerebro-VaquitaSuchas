@@ -1,10 +1,10 @@
 ---
 title: "Spec 005 · Plan"
 tipo: plan
-area: implementacion
+area: plan
 parent: "[[Spec-005-notificaciones]]"
 date: 2026-10-29
-tags: [area/implementacion, plan, spec-005]
+tags: [area/plan, plan, spec-005]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/005-notificaciones/plan.md
 ---
 

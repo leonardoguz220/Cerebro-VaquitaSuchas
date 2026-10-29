@@ -1,10 +1,10 @@
 ---
 title: "BD · esquema: Vistas e índices de reportes"
 tipo: bd
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, bd, migraciones, spec-006]
+tags: [area/bd, bd, migraciones, spec-006]
 related: ["[[Spec-006-panel-y-reportes]]", "[[BD-Migraciones]]"]
 ---
 

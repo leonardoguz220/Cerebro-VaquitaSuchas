@@ -1,11 +1,11 @@
 ---
 title: "Vault de Obsidian en un repo aparte"
 tipo: decision
-area: implementacion
+area: decisiones
 parent: "[[Decisiones]]"
 status: aceptada
 date: 2026-10-28
-tags: [area/implementacion, decision, decision, vault]
+tags: [area/decisiones, decision, decision, vault]
 ---
 
 > Padre: [[Decisiones]]

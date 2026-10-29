@@ -1,10 +1,10 @@
 ---
 title: "Hooks y subagentes en detalle"
 tipo: study
-area: implementacion
+area: proyecto
 parent: "[[Estudio-y-presentacion]]"
 date: 2026-10-29
-tags: [area/implementacion, study, carpeta-compartida]
+tags: [area/proyecto, study, carpeta-compartida]
 related: ["[[Hooks]]", "[[Subagentes]]"]
 ---
 

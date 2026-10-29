@@ -1,10 +1,10 @@
 ---
 title: "Backend · adaptadores y comandos CLI"
 tipo: backend
-area: implementacion
+area: backend
 parent: "[[Backend]]"
 date: 2026-10-29
-tags: [area/implementacion, backend, cli]
+tags: [area/backend, backend, cli]
 ---
 
 > Padre: [[Backend]]

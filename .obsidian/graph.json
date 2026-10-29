@@ -18,63 +18,140 @@
       "query": "tag:#area/implementacion",
       "color": {
         "a": 1,
-        "rgb": 8316247
+        "rgb": 16254470
+      }
+    },
+    {
+      "query": "tag:#area/specs",
+      "color": {
+        "a": 1,
+        "rgb": 456710
+      }
+    },
+    {
+      "query": "tag:#area/backend",
+      "color": {
+        "a": 1,
+        "rgb": 16254672
+      }
+    },
+    {
+      "query": "tag:#area/frontend",
+      "color": {
+        "a": 1,
+        "rgb": 16306182
+      }
+    },
+    {
+      "query": "tag:#area/bd",
+      "color": {
+        "a": 1,
+        "rgb": 4624373
+      }
+    },
+    {
+      "query": "tag:#area/cicd",
+      "color": {
+        "a": 1,
+        "rgb": 16081734
+      }
+    },
+    {
+      "query": "tag:#area/plan",
+      "color": {
+        "a": 1,
+        "rgb": 456892
+      }
+    },
+    {
+      "query": "tag:#area/decisiones",
+      "color": {
+        "a": 1,
+        "rgb": 16074398
+      }
+    },
+    {
+      "query": "tag:#area/despliegue",
+      "color": {
+        "a": 1,
+        "rgb": 13890957
+      }
+    },
+    {
+      "query": "tag:#area/desarrollo",
+      "color": {
+        "a": 1,
+        "rgb": 14388725
+      }
+    },
+    {
+      "query": "tag:#area/constitution",
+      "color": {
+        "a": 1,
+        "rgb": 16285446
+      }
+    },
+    {
+      "query": "tag:#area/proyecto",
+      "color": {
+        "a": 1,
+        "rgb": 446712
       }
     },
     {
       "query": "tag:#area/arquitectura",
       "color": {
         "a": 1,
-        "rgb": 3447003
+        "rgb": 16094861
       }
     },
     {
       "query": "tag:#area/dominio",
       "color": {
         "a": 1,
-        "rgb": 15158332
+        "rgb": 4650354
       }
     },
     {
       "query": "tag:#area/operaciones",
       "color": {
         "a": 1,
-        "rgb": 15105570
+        "rgb": 12322552
       }
     },
     {
       "query": "tag:#area/negocio",
       "color": {
         "a": 1,
-        "rgb": 10181046
+        "rgb": 16108173
       }
     },
     {
       "query": "tag:#area/sdd",
       "color": {
         "a": 1,
-        "rgb": 52945
+        "rgb": 9303524
       }
     },
     {
       "query": "tag:#area/finanzas",
       "color": {
         "a": 1,
-        "rgb": 15844367
+        "rgb": 16254551
       }
     },
     {
       "query": "tag:#area/calidad",
       "color": {
         "a": 1,
-        "rgb": 16742325
+        "rgb": 12384262
       }
     },
     {
       "query": "tag:#area/ia",
       "color": {
         "a": 1,
-        "rgb": 5793266
+        "rgb": 4609525
       }
     }
   ],

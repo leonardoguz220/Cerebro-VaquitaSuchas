@@ -1,10 +1,10 @@
 ---
 title: "Render (backend y base de datos)"
 tipo: infra
-area: implementacion
+area: despliegue
 parent: "[[Despliegue]]"
 date: 2026-10-29
-tags: [area/implementacion, infra, render]
+tags: [area/despliegue, infra, render]
 related: ["[[Workflow-deploy-backend]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/render.yaml
 ---

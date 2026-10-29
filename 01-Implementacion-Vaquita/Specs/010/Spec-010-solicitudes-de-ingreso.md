@@ -1,11 +1,11 @@
 ---
 title: "Spec 010: Solicitudes de ingreso y chat"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-010]
+tags: [area/specs, spec, spec-010]
 related: ["[[BE-join-requests]]", "[[BD-Esquema-ingreso]]", "[[ADR-0004-ingreso-con-pago-previo-y-chat]]", "[[ADR-0005-identidad-cedula-telegram]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/010-solicitudes-de-ingreso/spec.md
 spec_id: "010"

@@ -1,11 +1,11 @@
 ---
 title: "Spec 009 · Texto completo de la spec"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Spec-009-administracion]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-009]
+tags: [area/specs, spec, spec-009]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/009-administracion/spec.md
 ---
 

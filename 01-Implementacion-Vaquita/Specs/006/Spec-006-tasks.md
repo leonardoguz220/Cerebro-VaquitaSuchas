@@ -1,10 +1,10 @@
 ---
 title: "Spec 006 · Tareas"
 tipo: tasks
-area: implementacion
+area: desarrollo
 parent: "[[Spec-006-panel-y-reportes]]"
 date: 2026-10-29
-tags: [area/implementacion, tasks, spec-006]
+tags: [area/desarrollo, tasks, spec-006]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/006-panel-y-reportes/tasks.md
 ---
 

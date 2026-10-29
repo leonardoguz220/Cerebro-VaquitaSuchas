@@ -1,11 +1,11 @@
 ---
 title: "Diseño: grupo incompleto (faltante de cuotas)"
 tipo: design
-area: implementacion
+area: decisiones
 parent: "[[Spec-011-faltante-de-grupo]]"
 status: propuesta
 date: 2026-10-29
-tags: [area/implementacion, design]
+tags: [area/decisiones, design]
 related: ["[[Decision-plazos-faltante-grupo]]"]
 ---
 

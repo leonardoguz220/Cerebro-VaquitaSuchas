@@ -1,10 +1,10 @@
 ---
 title: "BD · README de database (comandos, respaldo, migrar producción, rol de la app)"
 tipo: runbook
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, runbook]
+tags: [area/bd, runbook]
 related: ["[[Runbook-migrar-produccion]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/database/README.md
 ---

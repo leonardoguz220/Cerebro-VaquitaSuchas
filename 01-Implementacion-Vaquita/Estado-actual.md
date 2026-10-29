@@ -1,11 +1,11 @@
 ---
 title: "Estado actual del proyecto"
 tipo: status
-area: implementacion
+area: proyecto
 parent: "[[Implementacion-Vaquita]]"
 status: vigente
 date: 2026-10-29
-tags: [area/implementacion, status]
+tags: [area/proyecto, status]
 related: ["[[Despliegue]]", "[[CI-CD]]"]
 ---
 

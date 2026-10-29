@@ -1,10 +1,10 @@
 ---
 title: "Workflow · migrate-staging"
 tipo: workflow
-area: implementacion
+area: cicd
 parent: "[[CI-CD]]"
 date: 2026-10-29
-tags: [area/implementacion, workflow, ci, github-actions]
+tags: [area/cicd, workflow, ci, github-actions]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/.github/workflows/migrate-staging.yml
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "BD · guía de la capa (CLAUDE.md)"
 tipo: guia
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, guia]
+tags: [area/bd, guia]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/database/CLAUDE.md
 ---
 

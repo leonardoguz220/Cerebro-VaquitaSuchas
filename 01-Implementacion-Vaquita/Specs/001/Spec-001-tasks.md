@@ -1,10 +1,10 @@
 ---
 title: "Spec 001 · Tareas"
 tipo: tasks
-area: implementacion
+area: desarrollo
 parent: "[[Spec-001-suscripciones-compartidas]]"
 date: 2026-10-29
-tags: [area/implementacion, tasks, spec-001]
+tags: [area/desarrollo, tasks, spec-001]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/001-suscripciones-compartidas/tasks.md
 ---
 

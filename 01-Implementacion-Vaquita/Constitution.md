@@ -1,10 +1,10 @@
 ---
 title: "Constitution (constitución del proyecto)"
 tipo: hub
-area: implementacion
+area: constitution
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, hub]
+tags: [area/constitution, hub]
 related: ["[[SDD-Como-se-aplica-en-Vaquita]]", "[[Reglas-de-dominio]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/.specify/memory/constitution.md
 ---

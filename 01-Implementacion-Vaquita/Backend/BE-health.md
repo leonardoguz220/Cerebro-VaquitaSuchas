@@ -1,10 +1,10 @@
 ---
 title: "Backend · módulo health"
 tipo: backend
-area: implementacion
+area: backend
 parent: "[[Backend]]"
 date: 2026-10-29
-tags: [area/implementacion, backend, backend, spec-000]
+tags: [area/backend, backend, backend, spec-000]
 related: ["[[Spec-000-setup-del-proyecto]]"]
 ---
 

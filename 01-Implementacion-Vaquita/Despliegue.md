@@ -1,10 +1,10 @@
 ---
 title: "Despliegue e infraestructura"
 tipo: hub
-area: implementacion
+area: despliegue
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, hub]
+tags: [area/despliegue, hub]
 related: ["[[Operaciones]]"]
 ---
 

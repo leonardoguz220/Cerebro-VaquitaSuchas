@@ -1,10 +1,10 @@
 ---
 title: "Vercel (frontend)"
 tipo: infra
-area: implementacion
+area: despliegue
 parent: "[[Despliegue]]"
 date: 2026-10-29
-tags: [area/implementacion, infra, vercel]
+tags: [area/despliegue, infra, vercel]
 related: ["[[Frontend]]"]
 ---
 

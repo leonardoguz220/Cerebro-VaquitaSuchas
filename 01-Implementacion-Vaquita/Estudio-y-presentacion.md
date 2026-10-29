@@ -1,10 +1,10 @@
 ---
 title: "Estudio y presentación"
 tipo: hub
-area: implementacion
+area: proyecto
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, hub]
+tags: [area/proyecto, hub]
 ---
 
 > Padre: [[Implementacion-Vaquita]]

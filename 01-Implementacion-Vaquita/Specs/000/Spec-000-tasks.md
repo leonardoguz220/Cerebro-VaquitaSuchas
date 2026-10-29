@@ -1,10 +1,10 @@
 ---
 title: "Spec 000 · Tareas"
 tipo: tasks
-area: implementacion
+area: desarrollo
 parent: "[[Spec-000-setup-del-proyecto]]"
 date: 2026-10-29
-tags: [area/implementacion, tasks, spec-000]
+tags: [area/desarrollo, tasks, spec-000]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/000-setup-del-proyecto/tasks.md
 ---
 

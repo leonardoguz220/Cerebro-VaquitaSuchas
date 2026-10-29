@@ -1,10 +1,10 @@
 ---
 title: "Backend · módulo listings"
 tipo: backend
-area: implementacion
+area: backend
 parent: "[[Backend]]"
 date: 2026-10-29
-tags: [area/implementacion, backend, backend, spec-008]
+tags: [area/backend, backend, backend, spec-008]
 related: ["[[Spec-008-cupos-libres]]"]
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "BD · relaciones entre tablas"
 tipo: bd
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, bd, relaciones]
+tags: [area/bd, bd, relaciones]
 ---
 
 > Padre: [[BD]]

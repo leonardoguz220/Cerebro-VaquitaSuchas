@@ -1,10 +1,10 @@
 ---
 title: "Memoria del proyecto (hechos duraderos)"
 tipo: status
-area: implementacion
+area: proyecto
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, status]
+tags: [area/proyecto, status]
 related: ["[[Estado-actual]]"]
 ---
 

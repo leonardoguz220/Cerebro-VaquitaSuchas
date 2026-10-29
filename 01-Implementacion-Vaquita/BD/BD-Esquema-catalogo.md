@@ -1,10 +1,10 @@
 ---
 title: "BD · esquema: Catálogo de servicios"
 tipo: bd
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, bd, migraciones, spec-004]
+tags: [area/bd, bd, migraciones, spec-004]
 related: ["[[Spec-004-catalogo-de-servicios]]", "[[BD-Migraciones]]"]
 ---
 

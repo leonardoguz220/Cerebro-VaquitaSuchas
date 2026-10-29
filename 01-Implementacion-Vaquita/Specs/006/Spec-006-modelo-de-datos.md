@@ -1,10 +1,10 @@
 ---
 title: "Spec 006 · Modelo de datos"
 tipo: plan
-area: implementacion
+area: plan
 parent: "[[Spec-006-panel-y-reportes]]"
 date: 2026-10-29
-tags: [area/implementacion, plan, spec-006]
+tags: [area/plan, plan, spec-006]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/006-panel-y-reportes/data-model.md
 ---
 

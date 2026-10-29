@@ -1,10 +1,10 @@
 ---
 title: "Supabase Storage (comprobantes e imágenes)"
 tipo: infra
-area: implementacion
+area: despliegue
 parent: "[[Despliegue]]"
 date: 2026-10-29
-tags: [area/implementacion, infra, supabase]
+tags: [area/despliegue, infra, supabase]
 related: ["[[BE-Shared]]"]
 ---
 

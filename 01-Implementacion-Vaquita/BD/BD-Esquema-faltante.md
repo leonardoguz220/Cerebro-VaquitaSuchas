@@ -1,10 +1,10 @@
 ---
 title: "BD · esquema: Faltante de grupo"
 tipo: bd
-area: implementacion
+area: bd
 parent: "[[BD]]"
 date: 2026-10-29
-tags: [area/implementacion, bd, migraciones, spec-011]
+tags: [area/bd, bd, migraciones, spec-011]
 related: ["[[Spec-011-faltante-de-grupo]]", "[[BD-Migraciones]]"]
 ---
 

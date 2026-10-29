@@ -1,10 +1,10 @@
 ---
 title: "Bot de Telegram (VaquitaVerficacionBot)"
 tipo: infra
-area: implementacion
+area: despliegue
 parent: "[[Despliegue]]"
 date: 2026-10-29
-tags: [area/implementacion, infra, telegram]
+tags: [area/despliegue, infra, telegram]
 ---
 
 > Padre: [[Despliegue]]

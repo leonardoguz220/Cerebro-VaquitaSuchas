@@ -1,10 +1,10 @@
 ---
 title: "Backend · jobs programados"
 tipo: backend
-area: implementacion
+area: backend
 parent: "[[Backend]]"
 date: 2026-10-29
-tags: [area/implementacion, backend, jobs]
+tags: [area/backend, backend, jobs]
 related: ["[[Arquitectura-Jobs]]"]
 ---
 

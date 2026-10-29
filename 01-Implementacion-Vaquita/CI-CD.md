@@ -1,10 +1,10 @@
 ---
 title: "CI/CD (GitHub Actions)"
 tipo: hub
-area: implementacion
+area: cicd
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, hub]
+tags: [area/cicd, hub]
 related: ["[[Despliegue]]", "[[Operaciones]]"]
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "Historial de PR y commits"
 tipo: history
-area: implementacion
+area: proyecto
 parent: "[[Implementacion-Vaquita]]"
 date: 2026-10-29
-tags: [area/implementacion, history]
+tags: [area/proyecto, history]
 related: ["[[Estado-actual]]"]
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: "Spec 007: Reputación"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 status: aprobada
 date: 2026-10-29
-tags: [area/implementacion, spec, spec-007]
+tags: [area/specs, spec, spec-007]
 related: ["[[BE-reputation]]", "[[BD-Esquema-reputacion]]", "[[ADR-0004-ingreso-con-pago-previo-y-chat]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/007-reputacion/spec.md
 spec_id: "007"

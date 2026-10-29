@@ -1,10 +1,10 @@
 ---
 title: "Spec 000 · Modelo de datos"
 tipo: plan
-area: implementacion
+area: plan
 parent: "[[Spec-000-setup-del-proyecto]]"
 date: 2026-10-29
-tags: [area/implementacion, plan, spec-000]
+tags: [area/plan, plan, spec-000]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/000-setup-del-proyecto/data-model.md
 ---
 

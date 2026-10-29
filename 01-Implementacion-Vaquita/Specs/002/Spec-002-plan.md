@@ -1,10 +1,10 @@
 ---
 title: "Spec 002 · Plan"
 tipo: plan
-area: implementacion
+area: plan
 parent: "[[Spec-002-cobros-y-pagos]]"
 date: 2026-10-29
-tags: [area/implementacion, plan, spec-002]
+tags: [area/plan, plan, spec-002]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/002-cobros-y-pagos/plan.md
 ---
 

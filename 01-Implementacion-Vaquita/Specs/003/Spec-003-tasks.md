@@ -1,10 +1,10 @@
 ---
 title: "Spec 003 · Tareas"
 tipo: tasks
-area: implementacion
+area: desarrollo
 parent: "[[Spec-003-usuarios-y-autenticacion]]"
 date: 2026-10-29
-tags: [area/implementacion, tasks, spec-003]
+tags: [area/desarrollo, tasks, spec-003]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/003-usuarios-y-autenticacion/tasks.md
 ---
 

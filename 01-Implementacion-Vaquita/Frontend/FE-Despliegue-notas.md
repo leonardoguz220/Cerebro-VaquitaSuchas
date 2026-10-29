@@ -1,10 +1,10 @@
 ---
 title: "Frontend · notas de despliegue (DEPLOY.md)"
 tipo: runbook
-area: implementacion
+area: frontend
 parent: "[[Frontend]]"
 date: 2026-10-29
-tags: [area/implementacion, runbook]
+tags: [area/frontend, runbook]
 related: ["[[Vercel]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/frontend/DEPLOY.md
 ---

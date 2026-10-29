@@ -1,11 +1,11 @@
 ---
 title: "Plazos supuestos del faltante de grupo (spec 011)"
 tipo: decision
-area: implementacion
+area: decisiones
 parent: "[[Decisiones]]"
 status: supuesta
 date: 2026-10-28
-tags: [area/implementacion, decision, decision, spec-011]
+tags: [area/decisiones, decision, decision, spec-011]
 related: ["[[Spec-011-faltante-de-grupo]]", "[[Faltante-de-grupo-reglas]]"]
 ---
 

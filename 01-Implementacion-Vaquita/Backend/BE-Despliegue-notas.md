@@ -1,10 +1,10 @@
 ---
 title: "Backend · notas de despliegue (DEPLOY.md)"
 tipo: runbook
-area: implementacion
+area: backend
 parent: "[[Backend]]"
 date: 2026-10-29
-tags: [area/implementacion, runbook]
+tags: [area/backend, runbook]
 related: ["[[Render]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/backend/DEPLOY.md
 ---

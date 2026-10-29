@@ -1,10 +1,10 @@
 ---
 title: "Roadmap de specs"
 tipo: spec
-area: implementacion
+area: specs
 parent: "[[Specs]]"
 date: 2026-10-29
-tags: [area/implementacion, spec]
+tags: [area/specs, spec]
 related: ["[[Specs]]"]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/00-roadmap.md
 ---

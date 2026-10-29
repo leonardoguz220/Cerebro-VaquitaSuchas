@@ -1,10 +1,10 @@
 ---
 title: "Backend · guía de la capa (CLAUDE.md)"
 tipo: guia
-area: implementacion
+area: backend
 parent: "[[Backend]]"
 date: 2026-10-29
-tags: [area/implementacion, guia]
+tags: [area/backend, guia]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/backend/CLAUDE.md
 ---
 
