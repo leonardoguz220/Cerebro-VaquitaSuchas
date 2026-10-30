@@ -23,3 +23,5 @@ tags: [area/negocio, negocio]
 | Caída del plan gratuito | Respaldos y `db:dump` ([[Render]]) | Demo, no producción comercial |
 
 Decisión base: [[ADR-0004-ingreso-con-pago-previo-y-chat]]. Seguridad técnica: [[Seguridad]].
+
+Riesgos desde la óptica comercial: estafas entre usuarios (pago previo, chat con evidencia, reclamos, baneo), cambios de precio de plataformas (cada cobro guarda su copia), límites de compartir cuentas, infraestructura gratuita limitada. Ver [[Propuesta-de-producto-y-venta]] y [[Hoja-de-ruta-comercial]].
