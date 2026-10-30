@@ -3,7 +3,7 @@ title: "Memoria del proyecto (hechos duraderos)"
 tipo: status
 area: proyecto
 parent: "[[Implementacion-Vaquita]]"
-date: 2026-10-29
+date: 2026-10-30
 tags: [area/proyecto, status]
 related: ["[[Estado-actual]]"]
 ---
@@ -20,5 +20,6 @@ Hechos que conviene no volver a preguntar. Sin secretos.
 - 2026-10-27: correo con Brevo verificado en staging; Leo rotó la clave de Supabase. Frontend de staging `vaquita-suchas.vercel.app`; bot `VaquitaVerficacionBot`. El PR #245 (hacer obligatorio `TELEGRAM_BOT_USERNAME` en producción) estaba pendiente cuando se escribió esto; el historial lo muestra fusionado.
 - La base gratuita de Render expira 30 días después de crearse.
 - 2026-10-28: el profesor pidió el segundo cerebro en Obsidian en otro repo ([[Decision-vault-en-repo-aparte]]).
+- 2026-10-30: todo `dev → qa → main` quedó fusionado (PR #280 y #281). Se crearon los issues #265 a #276 (uno por spec), se conectó `.mcp.json` con GitHub y Context7 (PR #278) y se marcaron 52 puntos de integración (PR #279). El E2E de la 002 T043 ya estaba hecho (PR #237). Ver [[Estado-actual]], [[Issues-de-las-specs]] y [[MCP-GitHub-y-Context7]].
 
 Ver [[Estado-actual]].

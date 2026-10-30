@@ -29,7 +29,7 @@ Una vez que la app tiene usuarios reales, alguien debe poder mantener el catálo
 - Depende de: [[Spec-002-cobros-y-pagos]], [[Spec-003-usuarios-y-autenticacion]], [[Spec-004-catalogo-de-servicios]], [[Spec-008-cupos-libres]], [[Spec-010-solicitudes-de-ingreso]]
 - Última actualización: 2026-10-18
 - Tamaño: 30 requisitos funcionales (RF), 12 reglas de negocio (RN), 37 criterios de aceptación (CA)
-- Tareas: 39 hechas y 4 abiertas (ver [[Spec-009-tasks]])
+- Tareas: 43 hechas y 0 abiertas (ver [[Spec-009-tasks]])
 
 ## Historias de usuario
 

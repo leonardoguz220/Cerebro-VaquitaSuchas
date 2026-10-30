@@ -29,7 +29,7 @@ El valor de Vaquita está en que nadie tenga que perseguir a nadie. Para eso la 
 - Depende de: [[Spec-000-setup-del-proyecto]], [[Spec-001-suscripciones-compartidas]], [[Spec-002-cobros-y-pagos]], [[Spec-003-usuarios-y-autenticacion]], [[Spec-010-solicitudes-de-ingreso]]
 - Última actualización: 2026-10-18
 - Tamaño: 30 requisitos funcionales (RF), 7 reglas de negocio (RN), 34 criterios de aceptación (CA)
-- Tareas: 34 hechas y 5 abiertas (ver [[Spec-005-tasks]])
+- Tareas: 39 hechas y 0 abiertas (ver [[Spec-005-tasks]])
 
 ## Historias de usuario
 

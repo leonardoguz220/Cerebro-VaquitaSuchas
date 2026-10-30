@@ -31,7 +31,7 @@ Esta spec define cómo se **crea una suscripción compartida**, cómo se **invit
 - Depende de: [[Spec-003-usuarios-y-autenticacion]], [[Spec-004-catalogo-de-servicios]]
 - Última actualización: 2026-10-18
 - Tamaño: 28 requisitos funcionales (RF), 20 reglas de negocio (RN), 30 criterios de aceptación (CA)
-- Tareas: 42 hechas y 5 abiertas (ver [[Spec-001-tasks]])
+- Tareas: 47 hechas y 0 abiertas (ver [[Spec-001-tasks]])
 
 ## Historias de usuario
 

@@ -35,7 +35,7 @@ Vaquita no custodia dinero. En una operación entre pares con custodia, la plata
 - Depende de: [[Spec-001-suscripciones-compartidas]], [[Spec-002-cobros-y-pagos]], [[Spec-003-usuarios-y-autenticacion]]
 - Última actualización: 2026-10-18
 - Tamaño: 37 requisitos funcionales (RF), 19 reglas de negocio (RN), 47 criterios de aceptación (CA)
-- Tareas: 49 hechas y 7 abiertas (ver [[Spec-010-tasks]])
+- Tareas: 56 hechas y 0 abiertas (ver [[Spec-010-tasks]])
 
 ## Historias de usuario
 

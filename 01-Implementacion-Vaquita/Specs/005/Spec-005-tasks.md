@@ -3,7 +3,7 @@ title: "Spec 005 · Tareas"
 tipo: tasks
 area: desarrollo
 parent: "[[Spec-005-notificaciones]]"
-date: 2026-10-29
+date: 2026-10-30
 tags: [area/desarrollo, tasks, spec-005]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/005-notificaciones/tasks.md
 ---
@@ -112,11 +112,11 @@ Parte de [[Spec-005-notificaciones]]. Fuente: `specs/005-notificaciones/tasks.md
 
 ## Puntos de integración (hitos)
 
-- [ ] **I1:** parte A disponible para las specs 002, 001 y 010 (T007)
-- [ ] **I2:** contrato de API congelado (`contracts/api.md`)
-- [ ] **I3:** frontend conectado al backend real (T013, T024, T028)
-- [ ] **I4:** envíos por correo con reintentos y ventana (T020)
-- [ ] **I5:** Telegram conectado con la verificación de celular de la spec 003 (T030)
+- [x] **I1:** parte A disponible para las specs 002, 001 y 010 (T007)
+- [x] **I2:** contrato de API congelado (`contracts/api.md`)
+- [x] **I3:** frontend conectado al backend real (T013, T024, T028)
+- [x] **I4:** envíos por correo con reintentos y ventana (T020)
+- [x] **I5:** Telegram conectado con la verificación de celular de la spec 003 (T030)
 
 ## Bloqueos y decisiones durante la implementación
 

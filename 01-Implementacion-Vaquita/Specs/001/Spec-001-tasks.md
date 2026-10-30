@@ -3,7 +3,7 @@ title: "Spec 001 · Tareas"
 tipo: tasks
 area: desarrollo
 parent: "[[Spec-001-suscripciones-compartidas]]"
-date: 2026-10-29
+date: 2026-10-30
 tags: [area/desarrollo, tasks, spec-001]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/001-suscripciones-compartidas/tasks.md
 ---
@@ -134,11 +134,11 @@ Parte de [[Spec-001-suscripciones-compartidas]]. Fuente: `specs/001-suscripcione
 
 ## Puntos de integración (hitos)
 
-- [ ] **I1:** modelo y funciones puras disponibles para las specs 002 y 010 (T004, T011)
-- [ ] **I2:** contrato de API congelado (`contracts/api.md`)
-- [ ] **I3:** frontend conectado al backend real (T017, T021)
-- [ ] **I4:** la spec 010 abre solicitudes con `InviteCodeService` y une miembros con `addMemberTx` (T023, T027)
-- [ ] **I5:** `HostEligibilityPort` conectado con las specs 007 y 009 (T013)
+- [x] **I1:** modelo y funciones puras disponibles para las specs 002 y 010 (T004, T011)
+- [x] **I2:** contrato de API congelado (`contracts/api.md`)
+- [x] **I3:** frontend conectado al backend real (T017, T021)
+- [x] **I4:** la spec 010 abre solicitudes con `InviteCodeService` y une miembros con `addMemberTx` (T023, T027)
+- [x] **I5:** `HostEligibilityPort` conectado con las specs 007 y 009 (T013)
 
 ## Bloqueos y decisiones durante la implementación
 

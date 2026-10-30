@@ -3,7 +3,7 @@ title: "Spec 007 · Tareas"
 tipo: tasks
 area: desarrollo
 parent: "[[Spec-007-reputacion]]"
-date: 2026-10-29
+date: 2026-10-30
 tags: [area/desarrollo, tasks, spec-007]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/007-reputacion/tasks.md
 ---
@@ -110,9 +110,9 @@ Parte de [[Spec-007-reputacion]]. Fuente: `specs/007-reputacion/tasks.md`.
 
 ## Puntos de integración (hitos)
 
-- [ ] **I1:** modelo y funciones puras disponibles (T002, T006)
-- [ ] **I2:** `ReputationQueryPort` disponible para las specs 001, 008, 009 y 010 (T010, T014)
-- [ ] **I3:** frontend conectado al backend real (T016, T022, T027, T033)
+- [x] **I1:** modelo y funciones puras disponibles (T002, T006)
+- [x] **I2:** `ReputationQueryPort` disponible para las specs 001, 008, 009 y 010 (T010, T014)
+- [x] **I3:** frontend conectado al backend real (T016, T022, T027, T033)
 
 ## Bloqueos y decisiones durante la implementación
 

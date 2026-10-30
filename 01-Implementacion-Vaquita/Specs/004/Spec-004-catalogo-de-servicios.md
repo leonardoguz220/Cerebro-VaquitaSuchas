@@ -29,7 +29,7 @@ Al crear una suscripción compartida, el titular no debería escribir a mano el 
 - Depende de: [[Spec-000-setup-del-proyecto]]
 - Última actualización: 2026-10-18
 - Tamaño: 9 requisitos funcionales (RF), 6 reglas de negocio (RN), 12 criterios de aceptación (CA)
-- Tareas: 21 hechas y 4 abiertas (ver [[Spec-004-tasks]])
+- Tareas: 25 hechas y 0 abiertas (ver [[Spec-004-tasks]])
 
 ## Historias de usuario
 
