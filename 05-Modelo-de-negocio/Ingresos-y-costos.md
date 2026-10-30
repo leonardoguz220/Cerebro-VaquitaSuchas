@@ -21,3 +21,5 @@ tags: [area/negocio, negocio]
 **Costos:** infraestructura (servidor, base, almacenamiento, correo), tiempo de moderación de reclamos y soporte, y el costo de cumplimiento legal si se crece.
 
 Cualquier decisión de este tipo se registra como ADR ([[Decisiones]]).
+
+Propuesta concreta y escenario (precios supuestos): [[Plan-Titular-Plus-y-cupos-destacados]], [[Escenario-de-ingresos-supuesto]].

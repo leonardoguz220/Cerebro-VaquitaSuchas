@@ -21,3 +21,5 @@ Conocimiento general; **verificar antes de citar en la presentación o en decisi
 | Grupo de WhatsApp más planilla | Cero costo | Sin recordatorios, sin historial fiable, sin protección ante fraude |
 
 Ventaja buscada: ajuste a Bolivia (Bs, QR, tipo de cambio manual, CI y Telegram) y protección del titular ([[Ingreso-al-grupo]]).
+
+Comparación cualitativa de la propuesta de venta: WhatsApp y capturas (sin historial), hoja de cálculo (manual), apps de dividir gastos (no pensadas para cobros mensuales ni QR en Bs). No hubo estudio de mercado formal. Ver [[Propuesta-de-producto-y-venta]].

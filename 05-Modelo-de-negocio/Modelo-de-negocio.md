@@ -16,6 +16,8 @@ Qué problema resuelve Vaquita, para quién, cuánto cuesta, quién compite y qu
 
 [[Suscripciones-compartidas]] · [[Propuesta-de-valor]] · [[Segmentos-y-usuarios]] · [[Alcance-del-MVP]] · [[Ingresos-y-costos]] · [[Competencia-y-alternativas]] · [[Riesgos-y-fraude]] · [[Terminos-de-servicio-de-las-plataformas]] · [[Metricas-clave]]
 
+Propuesta de venta: [[Propuesta-de-producto-y-venta]] · [[Problema-del-cliente]] · [[Funciones-que-resuelven-el-problema]] · [[Plan-Titular-Plus-y-cupos-destacados]] · [[Escenario-de-ingresos-supuesto]] · [[Estrategia-de-primeros-usuarios]] · [[Hoja-de-ruta-comercial]]
+
 Se apoya en [[Finanzas-aplicadas]] y [[Dominio]]; se implementa en [[Implementacion-Vaquita]].
 
 ## Notas hijas
@@ -29,3 +31,10 @@ Se apoya en [[Finanzas-aplicadas]] y [[Dominio]]; se implementa en [[Implementac
 - [[Terminos-de-servicio-de-las-plataformas]] — Términos de servicio de las plataformas
 - [[Metricas-clave]] — Métricas clave
 - [[Alcance-del-MVP]] — Alcance del MVP
+- [[Propuesta-de-producto-y-venta]] — Propuesta de producto y venta
+- [[Problema-del-cliente]] — Problema del cliente
+- [[Funciones-que-resuelven-el-problema]] — Funciones que resuelven el problema
+- [[Plan-Titular-Plus-y-cupos-destacados]] — Plan Titular Plus y cupos destacados
+- [[Escenario-de-ingresos-supuesto]] — Escenario de ingresos supuesto
+- [[Estrategia-de-primeros-usuarios]] — Estrategia de primeros usuarios
+- [[Hoja-de-ruta-comercial]] — Hoja de ruta comercial

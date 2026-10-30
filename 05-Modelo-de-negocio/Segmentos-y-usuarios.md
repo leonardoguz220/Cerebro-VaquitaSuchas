@@ -16,3 +16,5 @@ tags: [area/negocio, negocio]
 - **Quien busca un cupo:** persona que quiere un servicio a menor costo y acepta pagar antes de entrar.
 
 Contexto Bolivia: pagos por QR o transferencia entre personas, precios de servicios globales en USD y acceso variable a dólares ([[Pagos-en-Bolivia]], [[Conversion-USD-a-Bs]]). Roles dentro de la app: [[Roles-y-permisos]].
+
+Segmentos de la propuesta de venta: estudiantes y jóvenes (18 a 30), familias y compañeros de departamento, titulares con cupos libres. Primer mercado Bolivia. Ver [[Propuesta-de-producto-y-venta]] y [[Estrategia-de-primeros-usuarios]].
