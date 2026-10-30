@@ -3,7 +3,7 @@ title: "Historial de PR y commits"
 tipo: history
 area: proyecto
 parent: "[[Implementacion-Vaquita]]"
-date: 2026-10-29
+date: 2026-10-30
 tags: [area/proyecto, history]
 related: ["[[Estado-actual]]"]
 ---
@@ -12,10 +12,14 @@ related: ["[[Estado-actual]]"]
 
 # Historial de PR y commits
 
-147 cambios en `main` (se omiten los merge commits de promoción `dev → qa → main`). Convención: Conventional Commits con spec y tarea, por ejemplo `feat(011): … [T001-T015]`. Etiquetas `[BUG-nnn]` y `QA-nn` vienen de las revisiones de QA del 2026-10-26 y 27.
+151 cambios en `main` (se omiten los merge commits de promoción `dev → qa → main`; la última promoción fue la de los PR #280 y #281, el 2026-10-30). Convención: Conventional Commits con spec y tarea, por ejemplo `feat(011): … [T001-T015]`. Etiquetas `[BUG-nnn]` y `QA-nn` vienen de las revisiones de QA del 2026-10-26 y 27.
 
 | Fecha | PR | Cambio |
 |---|---|---|
+| 2026-10-29 | #279 | docs(specs): marcar los checkpoints de integración verificados en tasks.md (#279) |
+| 2026-10-29 | #278 | chore(ia): conectar los MCP de GitHub y Context7 con .mcp.json (#278) |
+| 2026-10-29 | #277 | test(000): cite CA-000-13, 15, 16 and 18 in a repo-config test (#277) |
+| 2026-10-28 | #264 | test(008): retake listings.expire sweep after a concurrent report [RNF-008-03] (#264) |
 | 2026-10-28 | #261 | ci(000): respaldo previo y TLS en Migrate production (#261) |
 | 2026-10-28 | #258 | ci(000): add manual Migrate production workflow (#258) |
 | 2026-10-28 | #255 | feat(011): cola de devoluciones disputadas y decisiones definitivas (#255) |

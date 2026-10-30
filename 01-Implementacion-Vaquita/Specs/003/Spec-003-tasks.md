@@ -3,7 +3,7 @@ title: "Spec 003 · Tareas"
 tipo: tasks
 area: desarrollo
 parent: "[[Spec-003-usuarios-y-autenticacion]]"
-date: 2026-10-29
+date: 2026-10-30
 tags: [area/desarrollo, tasks, spec-003]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/003-usuarios-y-autenticacion/tasks.md
 ---
@@ -135,10 +135,10 @@ Parte de [[Spec-003-usuarios-y-autenticacion]]. Fuente: `specs/003-usuarios-y-au
 
 ## Puntos de integración (hitos)
 
-- [ ] **I1:** modelo de identidad y `AuthGuard` disponibles para las demás specs (T002, T011, T012, T013)
-- [ ] **I2:** contrato de API congelado (`contracts/api.md`)
-- [ ] **I3:** frontend conectado al backend real (T025, T030)
-- [ ] **I4:** flujo completo de registro con el bot simulado en CI (T026)
+- [x] **I1:** modelo de identidad y `AuthGuard` disponibles para las demás specs (T002, T011, T012, T013)
+- [x] **I2:** contrato de API congelado (`contracts/api.md`)
+- [x] **I3:** frontend conectado al backend real (T025, T030)
+- [x] **I4:** flujo completo de registro con el bot simulado en CI (T026)
 
 ## Bloqueos y decisiones durante la implementación
 

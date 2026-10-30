@@ -3,7 +3,7 @@ title: "Spec 004 · Tareas"
 tipo: tasks
 area: desarrollo
 parent: "[[Spec-004-catalogo-de-servicios]]"
-date: 2026-10-29
+date: 2026-10-30
 tags: [area/desarrollo, tasks, spec-004]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/004-catalogo-de-servicios/tasks.md
 ---
@@ -92,10 +92,10 @@ Parte de [[Spec-004-catalogo-de-servicios]]. Fuente: `specs/004-catalogo-de-serv
 
 ## Puntos de integración (hitos)
 
-- [ ] **I1:** modelo y seed disponibles para el backend (T002 a T005)
-- [ ] **I2:** contrato de API congelado (`contracts/api.md`)
-- [ ] **I3:** frontend conectado al backend real (T012, T016)
-- [ ] **I4:** la spec 001 usa `getActivePlanForSubscription` y copia los datos (T017)
+- [x] **I1:** modelo y seed disponibles para el backend (T002 a T005)
+- [x] **I2:** contrato de API congelado (`contracts/api.md`)
+- [x] **I3:** frontend conectado al backend real (T012, T016)
+- [x] **I4:** la spec 001 usa `getActivePlanForSubscription` y copia los datos (T017)
 
 ## Bloqueos y decisiones durante la implementación
 

@@ -3,7 +3,7 @@ title: "Spec 009 · Tareas"
 tipo: tasks
 area: desarrollo
 parent: "[[Spec-009-administracion]]"
-date: 2026-10-29
+date: 2026-10-30
 tags: [area/desarrollo, tasks, spec-009]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/009-administracion/tasks.md
 ---
@@ -126,10 +126,10 @@ Parte de [[Spec-009-administracion]]. Fuente: `specs/009-administracion/tasks.md
 
 ## Puntos de integración (hitos)
 
-- [ ] **I1:** modelo de datos y puertos `AuditPort` y `BanPort` disponibles (T002 a T011)
-- [ ] **I2:** núcleo MVP completo: usuarios, baneo, titulares, reclamos y auditoría (T025)
-- [ ] **I3:** frontend conectado al backend real (T018, T021, T025, T029, T032, T035)
-- [ ] **I4:** `HostEligibilityPort` conectado con la spec 007 (T020)
+- [x] **I1:** modelo de datos y puertos `AuditPort` y `BanPort` disponibles (T002 a T011)
+- [x] **I2:** núcleo MVP completo: usuarios, baneo, titulares, reclamos y auditoría (T025)
+- [x] **I3:** frontend conectado al backend real (T018, T021, T025, T029, T032, T035)
+- [x] **I4:** `HostEligibilityPort` conectado con la spec 007 (T020)
 
 ## Bloqueos y decisiones durante la implementación
 

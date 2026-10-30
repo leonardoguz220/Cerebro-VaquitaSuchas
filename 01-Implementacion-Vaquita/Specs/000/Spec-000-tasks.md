@@ -3,7 +3,7 @@ title: "Spec 000 · Tareas"
 tipo: tasks
 area: desarrollo
 parent: "[[Spec-000-setup-del-proyecto]]"
-date: 2026-10-29
+date: 2026-10-30
 tags: [area/desarrollo, tasks, spec-000]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/000-setup-del-proyecto/tasks.md
 ---
@@ -134,11 +134,11 @@ Parte de [[Spec-000-setup-del-proyecto]]. Fuente: `specs/000-setup-del-proyecto/
 
 ## Puntos de integración (hitos)
 
-- [ ] **I1:** migraciones y convenciones disponibles para el backend (T008 a T012)
-- [ ] **I2:** contrato técnico congelado (`contracts/api.md` A, B y C)
-- [ ] **I3:** frontend conectado al backend real (T039, T040)
-- [ ] **I4:** CI obligatorio y `main` protegida (T041, T046)
-- [ ] **I5:** staging con tres capas respondiendo (T052)
+- [x] **I1:** migraciones y convenciones disponibles para el backend (T008 a T012)
+- [x] **I2:** contrato técnico congelado (`contracts/api.md` A, B y C)
+- [x] **I3:** frontend conectado al backend real (T039, T040)
+- [x] **I4:** CI obligatorio y `main` protegida (T041, T046)
+- [x] **I5:** staging con tres capas respondiendo (T052)
 
 ## Bloqueos y decisiones durante la implementación
 

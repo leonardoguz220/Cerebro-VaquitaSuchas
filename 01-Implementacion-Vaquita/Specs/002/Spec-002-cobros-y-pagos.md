@@ -31,7 +31,7 @@ Esta spec define el ciclo de vida de un **cobro mensual**: su generación autom�
 - Depende de: [[Spec-001-suscripciones-compartidas]]
 - Última actualización: 2026-10-18
 - Tamaño: 25 requisitos funcionales (RF), 18 reglas de negocio (RN), 33 criterios de aceptación (CA)
-- Tareas: 47 hechas y 6 abiertas (ver [[Spec-002-tasks]])
+- Tareas: 53 hechas y 0 abiertas (ver [[Spec-002-tasks]])
 
 ## Historias de usuario
 

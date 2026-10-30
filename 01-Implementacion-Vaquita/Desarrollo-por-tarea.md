@@ -52,3 +52,4 @@ Guías: [[Contribuir-CONTRIBUTING]], [[Backend]], [[Frontend]], [[BD]].
 
 - [[Contribuir-CONTRIBUTING]] — CONTRIBUTING.md completo (cómo trabaja el equipo)
 - [[Plantilla-de-PR]] — Plantilla de pull request
+- [[Issues-de-las-specs]] — Issues de las specs (#265 a #276)

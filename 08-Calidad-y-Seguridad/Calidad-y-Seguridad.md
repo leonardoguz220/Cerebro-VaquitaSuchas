@@ -26,3 +26,4 @@ Relacionados: [[SDD-Criterios-CA-y-trazabilidad]], [[Herramientas-IA]], [[Implem
 - [[Rendimiento]] — Rendimiento (checklist)
 - [[Seguridad]] — Seguridad en Vaquita
 - [[Estrategia-de-pruebas]] — Estrategia de pruebas
+- [[Trazabilidad-CA-000]] — Trazabilidad de los criterios de configuración

@@ -24,3 +24,4 @@ Precedencia: `CLAUDE.md` y constitución, luego spec y plan, luego `CONTRIBUTING
 - [[Herramientas-y-skills-de-IA]] — Registro de herramientas y skills de IA
 - [[Configuracion-de-Claude-Code]] — Configuración de Claude Code (settings.json)
 - [[Spec-Kit-en-el-repo]] — Spec Kit en el repo (.specify)
+- [[MCP-GitHub-y-Context7]] — MCP conectados: GitHub y Context7

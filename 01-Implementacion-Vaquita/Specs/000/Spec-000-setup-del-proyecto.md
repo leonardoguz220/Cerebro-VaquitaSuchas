@@ -31,7 +31,7 @@ Esta spec es **técnica** (no tiene usuarios finales), pero se redacta igual con
 - Depende de: —
 - Última actualización: 2026-10-18
 - Tamaño: 23 requisitos funcionales (RF), 3 reglas de negocio (RN), 18 criterios de aceptación (CA)
-- Tareas: 56 hechas y 5 abiertas (ver [[Spec-000-tasks]])
+- Tareas: 61 hechas y 0 abiertas (ver [[Spec-000-tasks]])
 
 ## Historias de usuario
 

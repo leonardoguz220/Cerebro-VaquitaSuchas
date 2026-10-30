@@ -3,7 +3,7 @@ title: "Spec 006 · Tareas"
 tipo: tasks
 area: desarrollo
 parent: "[[Spec-006-panel-y-reportes]]"
-date: 2026-10-29
+date: 2026-10-30
 tags: [area/desarrollo, tasks, spec-006]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/006-panel-y-reportes/tasks.md
 ---
@@ -106,10 +106,10 @@ Parte de [[Spec-006-panel-y-reportes]]. Fuente: `specs/006-panel-y-reportes/task
 
 ## Puntos de integración (hitos)
 
-- [ ] **I1:** vistas e índices disponibles (T002, T003)
-- [ ] **I2:** contrato de API congelado (`contracts/api.md`)
-- [ ] **I3:** frontend conectado al backend real (T013, T015, T019, T023, T027)
-- [ ] **I4:** rendimiento verificado con 20 suscripciones × 12 meses (T010, T029)
+- [x] **I1:** vistas e índices disponibles (T002, T003)
+- [x] **I2:** contrato de API congelado (`contracts/api.md`)
+- [x] **I3:** frontend conectado al backend real (T013, T015, T019, T023, T027)
+- [x] **I4:** rendimiento verificado con 20 suscripciones × 12 meses (T010, T029)
 
 ## Bloqueos y decisiones durante la implementación
 

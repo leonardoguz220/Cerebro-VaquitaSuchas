@@ -29,7 +29,7 @@ Quien comparte varias suscripciones pierde de vista cuánto gasta al mes, cuánt
 - Depende de: [[Spec-001-suscripciones-compartidas]], [[Spec-002-cobros-y-pagos]], [[Spec-004-catalogo-de-servicios]]
 - Última actualización: 2026-10-18
 - Tamaño: 17 requisitos funcionales (RF), 11 reglas de negocio (RN), 22 criterios de aceptación (CA)
-- Tareas: 31 hechas y 4 abiertas (ver [[Spec-006-tasks]])
+- Tareas: 35 hechas y 0 abiertas (ver [[Spec-006-tasks]])
 
 ## Historias de usuario
 

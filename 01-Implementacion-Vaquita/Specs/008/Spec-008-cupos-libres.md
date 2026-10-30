@@ -29,7 +29,7 @@ Muchos grupos tienen lugares vacíos: un plan familiar de 6 personas con 4 ocupa
 - Depende de: [[Spec-001-suscripciones-compartidas]], [[Spec-003-usuarios-y-autenticacion]], [[Spec-005-notificaciones]], [[Spec-007-reputacion]], [[Spec-010-solicitudes-de-ingreso]]
 - Última actualización: 2026-10-18
 - Tamaño: 22 requisitos funcionales (RF), 16 reglas de negocio (RN), 24 criterios de aceptación (CA)
-- Tareas: 29 hechas y 5 abiertas (ver [[Spec-008-tasks]])
+- Tareas: 34 hechas y 0 abiertas (ver [[Spec-008-tasks]])
 
 ## Historias de usuario
 

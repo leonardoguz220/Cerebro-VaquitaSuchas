@@ -3,7 +3,7 @@ title: "Spec 008 · Tareas"
 tipo: tasks
 area: desarrollo
 parent: "[[Spec-008-cupos-libres]]"
-date: 2026-10-29
+date: 2026-10-30
 tags: [area/desarrollo, tasks, spec-008]
 fuente: https://github.com/leonardoguz220/VaquitaSuchas/blob/main/specs/008-cupos-libres/tasks.md
 ---
@@ -108,11 +108,11 @@ Parte de [[Spec-008-cupos-libres]]. Fuente: `specs/008-cupos-libres/tasks.md`.
 
 ## Puntos de integración (hitos)
 
-- [ ] **I1:** modelo de datos y puertos disponibles (T004, T008)
-- [ ] **I2:** contrato de API congelado (`contracts/api.md`)
-- [ ] **I3:** frontend conectado al backend real (T012, T016, T020)
-- [ ] **I4:** la spec 010 abre solicitudes desde publicaciones y respeta `slots_offered` (T018)
-- [ ] **I5:** moderación conectada con la spec 009 (T022)
+- [x] **I1:** modelo de datos y puertos disponibles (T004, T008)
+- [x] **I2:** contrato de API congelado (`contracts/api.md`)
+- [x] **I3:** frontend conectado al backend real (T012, T016, T020)
+- [x] **I4:** la spec 010 abre solicitudes desde publicaciones y respeta `slots_offered` (T018)
+- [x] **I5:** moderación conectada con la spec 009 (T022)
 
 ## Bloqueos y decisiones durante la implementación
 

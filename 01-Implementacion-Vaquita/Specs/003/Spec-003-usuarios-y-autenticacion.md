@@ -29,7 +29,7 @@ Toda la app gira alrededor de personas que comparten dinero: hay que saber quié
 - Depende de: [[Spec-000-setup-del-proyecto]]
 - Última actualización: 2026-10-18
 - Tamaño: 25 requisitos funcionales (RF), 5 reglas de negocio (RN), 35 criterios de aceptación (CA)
-- Tareas: 46 hechas y 4 abiertas (ver [[Spec-003-tasks]])
+- Tareas: 50 hechas y 0 abiertas (ver [[Spec-003-tasks]])
 
 ## Historias de usuario
 

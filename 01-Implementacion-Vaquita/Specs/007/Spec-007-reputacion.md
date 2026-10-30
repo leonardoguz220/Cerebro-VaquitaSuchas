@@ -29,7 +29,7 @@ Compartir una suscripción es un acto de confianza: el titular adelanta el diner
 - Depende de: [[Spec-001-suscripciones-compartidas]], [[Spec-002-cobros-y-pagos]]
 - Última actualización: 2026-10-18
 - Tamaño: 21 requisitos funcionales (RF), 12 reglas de negocio (RN), 25 criterios de aceptación (CA)
-- Tareas: 37 hechas y 3 abiertas (ver [[Spec-007-tasks]])
+- Tareas: 40 hechas y 0 abiertas (ver [[Spec-007-tasks]])
 
 ## Historias de usuario
 

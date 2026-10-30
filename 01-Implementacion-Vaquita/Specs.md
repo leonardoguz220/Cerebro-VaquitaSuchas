@@ -16,17 +16,17 @@ La spec es la fuente de verdad (ver [[SDD-y-SpecKit]]): dice el qu√© y el porqu√
 
 | Spec | Nota | Tareas |
 |---|---|---|
-| 000 | [[Spec-000-setup-del-proyecto]] | 56 hechas / 5 abiertas |
-| 001 | [[Spec-001-suscripciones-compartidas]] | 42 hechas / 5 abiertas |
-| 002 | [[Spec-002-cobros-y-pagos]] | 47 hechas / 6 abiertas |
-| 003 | [[Spec-003-usuarios-y-autenticacion]] | 46 hechas / 4 abiertas |
-| 004 | [[Spec-004-catalogo-de-servicios]] | 21 hechas / 4 abiertas |
-| 005 | [[Spec-005-notificaciones]] | 34 hechas / 5 abiertas |
-| 006 | [[Spec-006-panel-y-reportes]] | 31 hechas / 4 abiertas |
-| 007 | [[Spec-007-reputacion]] | 37 hechas / 3 abiertas |
-| 008 | [[Spec-008-cupos-libres]] | 29 hechas / 5 abiertas |
-| 009 | [[Spec-009-administracion]] | 39 hechas / 4 abiertas |
-| 010 | [[Spec-010-solicitudes-de-ingreso]] | 49 hechas / 7 abiertas |
+| 000 | [[Spec-000-setup-del-proyecto]] | 61 hechas / 0 abiertas |
+| 001 | [[Spec-001-suscripciones-compartidas]] | 47 hechas / 0 abiertas |
+| 002 | [[Spec-002-cobros-y-pagos]] | 53 hechas / 0 abiertas |
+| 003 | [[Spec-003-usuarios-y-autenticacion]] | 50 hechas / 0 abiertas |
+| 004 | [[Spec-004-catalogo-de-servicios]] | 25 hechas / 0 abiertas |
+| 005 | [[Spec-005-notificaciones]] | 39 hechas / 0 abiertas |
+| 006 | [[Spec-006-panel-y-reportes]] | 35 hechas / 0 abiertas |
+| 007 | [[Spec-007-reputacion]] | 40 hechas / 0 abiertas |
+| 008 | [[Spec-008-cupos-libres]] | 34 hechas / 0 abiertas |
+| 009 | [[Spec-009-administracion]] | 43 hechas / 0 abiertas |
+| 010 | [[Spec-010-solicitudes-de-ingreso]] | 56 hechas / 0 abiertas |
 | 011 | [[Spec-011-faltante-de-grupo]] | 23 hechas / 0 abiertas |
 
 Mapa de prioridades y dependencias: [[Roadmap-de-specs]]. Preguntas que quedaron abiertas: [[Preguntas-abiertas]]. Plantillas: [[SDD-Plantillas]].
